@@ -34,9 +34,9 @@ plugins:
 
 # Uncomment the following setting if you wish to disable deprecation warnings
 #   from newer versions of sass converter. Adapt as required.
-sass:
-  quiet_deps: true
-  silence_deprecations: [import]
+#sass:
+#  quiet_deps: true
+#  silence_deprecations: [import]
 
 
 # Minima-specific settings (applicable to Minima v3 and above only)
