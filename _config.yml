@@ -4,8 +4,8 @@
 title: Your awesome title
 
 author:
-	name: GitHub User
-	email: your-email@domain.com
+  name: GitHub User
+  email: your-email@domain.com
 
 # The `>` after `description:` means to ignore line-breaks until next key. If
 #   you wish to omit the line-break after the end of text, use `>-` instead.
@@ -30,14 +30,14 @@ author:
 #
 # Minima requires the following plugins:
 plugins:
-	- jekyll-feed
-	- jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-seo-tag
 
 # Uncomment the following setting if you wish to disable deprecation warnings
 #   from newer versions of sass converter. Adapt as required.
 sass:
-	quiet_deps: true
-	silence_deprecations: [import]
+  quiet_deps: true
+  silence_deprecations: [import]
 
 
 # Minima-specific settings (applicable to Minima v3 and above only)
@@ -54,7 +54,7 @@ minima:
 #     * solarized-light    Light variant of solarized color scheme.
 #     * solarized-dark     Dark variant of solarized color scheme.
 #     * solarized          Adaptive skin for solarized color scheme skins.
-	skin: auto
+  skin: auto
 #
 #   Specific pages for site navigation.
 #     If you wish to link only specific pages in the site-navigation, use this
