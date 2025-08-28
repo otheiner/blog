@@ -1,10 +1,10 @@
 # Site-wide settings
 # ------------------
 #
-title: Ondra's personal blog
+title: Ondřej's personal blog
 
-author:
-  name: Ondřej Theiner
+#author:
+#  name: Ondřej Theiner
 
 # The `>` after `description:` means to ignore line-breaks until next key. If
 #   you wish to omit the line-break after the end of text, use `>-` instead.
@@ -63,7 +63,7 @@ minima:
 #     - about.md
 #
 #   Set to `true` to show excerpts on the homepage.
-#   show_excerpts: false
+  show_excerpts: true
 #
 #   Minima date format.
 #     The default value is "%b %d, %Y" (e.g. Nov 14, 2023).
@@ -88,4 +88,4 @@ minima:
 #     RSS / Atom feed link is always rendered as the last item of social-links
 #     list. Set below key to `true` to not have the link to feed rendered as
 #     part of social-links list.
-#   hide_site_feed_link: false
+  hide_site_feed_link: true
