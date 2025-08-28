@@ -1,0 +1,5 @@
+title: My personal blog.
+description: 
+baseurl: "/blog"       # important for linking assets correctly
+url: "https://otheiner.github.io"
+theme: minima
