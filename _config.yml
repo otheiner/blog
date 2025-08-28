@@ -1,11 +1,10 @@
 # Site-wide settings
 # ------------------
 #
-title: Your awesome title
+title: Ondra's personal blog
 
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: Ondřej Theiner
 
 # The `>` after `description:` means to ignore line-breaks until next key. If
 #   you wish to omit the line-break after the end of text, use `>-` instead.
