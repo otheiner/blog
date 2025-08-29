@@ -25,6 +25,12 @@ layout: base
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
       <li>
+        {%- if post.image -%}
+          <img src="{{- post.image | relative_url -}}" alt="" class="blog-roll-image">
+        {%- else -%}
+          {%- assign postImage = "/assets/images/default-image.jpeg" -%}
+          <img src="{{- postImage | relative_url -}}" alt="" class="blog-roll-image">
+        {%- endif -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
@@ -32,9 +38,10 @@ layout: base
           </a>
         </h3>
         {%- if site.minima.show_excerpts -%}
-          {{ post.excerpt }}
+          {{ post.content | truncatewords: 100 }}
         {%- endif -%}
       </li>
+      <hr>
       {%- endfor -%}
     </ul>
 

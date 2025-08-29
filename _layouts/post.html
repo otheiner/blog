@@ -4,7 +4,13 @@ layout: base
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    {%- if page.image -%}
+      <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post">
+    {%- else -%}
+      {%- assign postImage = "/assets/images/default-image.jpeg" -%}
+      <img src="{{- postImage | relative_url -}}" alt="" class="featured-image-post">
+    {%- endif -%}
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title |  markdownify | remove: '<p>' | remove: '</p>' }}</h1>
     <div class="post-meta">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {% assign pdate = page.date | date_to_xmlschema %}
