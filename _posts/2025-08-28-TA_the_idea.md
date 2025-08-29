@@ -21,7 +21,7 @@ The trail starts in the north of North Island at Cape Reinga and finishes in sou
 
 Based on which direction one decides to choose, the suitable time window for hiking the differes. For SOBO, the ideal time to start the trail is around October-December. The reason for this is that starting earlier means hiking in winter which, in North Island, means a lot of rains. On the other hand, starting later means that one arrives to mountains in South Island in autumn and there can be snow already. The window for starting NOBO is usually later because snow in moutains in South Island melts in summer, so it is possible to start around December-January. Finishing in autumn in the North Island is not a problem because the area north of Auckland (approximately last 600 km) is reffered to as winterless north, and eventhough it can be raining, there are not many potentially dangerous sections and so the north is doable almost all-year long.
 
-![Image](/assets/images/TA/trail_map.jpg)
+![Image](../../../../assets/images/TA/trail_map.jpg)
 *Fig: This is where the trail approximately goes. Image [source](https://www.teararoa.org.nz/about-te-araroa/).*
 
 
