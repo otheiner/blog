@@ -415,33 +415,3 @@
     width: calc(50% - (#{$spacing-unit} / 2));
   }
 }
-
-
-.featured-image-post {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-}
-
-.blog-roll-image {
-  width: 150px;
-  height: 7 * $spacing-unit;
-  object-fit: cover;
-  float: left;
-  margin-right: 20px; 
-}
-
-/* Image: shrink + center */
-p > img {
-  display: block;
-  margin: 0 auto;    /* center horizontally */
-  width: 40%;        /* shrink image */
-}
-
-/* Caption: just center text */
-p > img + em {
-  display: block;
-  text-align: center;
-  margin-top: 0.5em;
-  color: grey;
-}

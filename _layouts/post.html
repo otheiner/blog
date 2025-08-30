@@ -4,8 +4,8 @@ layout: base
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    {%- if page.image -%}
-      <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post">
+    {%- if page.image_heading -%}
+      <img src="{{- page.image_heading | relative_url -}}" alt="" class="featured-image-post">
     {%- else -%}
       {%- assign postImage = "/assets/images/default-image.jpeg" -%}
       <img src="{{- postImage | relative_url -}}" alt="" class="featured-image-post">

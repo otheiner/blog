@@ -2,7 +2,8 @@
 layout: post
 title: Te Araroa Trail - How It All Started?
 tags: hiking TeAraroa
-image: /assets/images/TA/spirit_tree.jpeg
+image_preview: /assets/images/TA/spirit_tree.jpeg
+image_heading: /assets/images/TA/spirit_tree.jpeg
 ---
 
 It was April 2024 and I was sitting in my office at the University of Geneva. I was analysing data from the ATLAS experiment at CERN where my colleagues and I were looking for new elementary particles called Higgsinos. It was the time when we were preparing paper and I was also already working on chapters for my disertation. A little bit stresful times and I wanted to see the light at the end of the tunnel, so I started to think what am I going to do after I defend my thesis. I knew that I wanted to do some adventure and I wanted it to be big!
@@ -23,5 +24,8 @@ Based on which direction one decides to choose, the suitable time window for hik
 
 ![Image](/assets/images/TA/trail_map.jpg)
 *Fig: This is where the trail approximately goes. Image [source](https://www.teararoa.org.nz/about-te-araroa/).*
+
+More about the preparation for the trail is in the next [post]({{Site.BaseUrl}}/2025/08/29/
+TA_preparation.html)
 
 
