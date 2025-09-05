@@ -6,7 +6,7 @@ image_preview: /assets/images/TA/ridge.jpeg
 image_heading: /assets/images/TA/ridge.jpeg
 ---
 
-It was the end of October 2024, I officially defended my [thesis](https://repository.cern/records/wp9p0-hkk75) titled "Searching for new physics using the ATLAS and FASER detectors" and became a doctor of philosophy a.k.a. Ph.D. Yay, time to take some break and go for a big adventure! I first went with my friends climbing to Leonidio in Greece for ten days but I didn't plan anything for the trail. Te Araroa had been in my mind for the past 6 months but I didn't do any preparation and since then. It was end of November and I still didn't plan anything. I am trying not to stress by things but this was the moment when I realised that time is ticking and if I want to do the trail this season, I should better start planning because I should be standing in Bluff at the beginning of the trail in not more than two months. So I started some actual planning.
+It was the end of October 2024, I officially defended my [thesis](https://repository.cern/records/wp9p0-hkk75) titled "Searching for new physics using the ATLAS and FASER detectors" and became a doctor of philosophy a.k.a. Ph.D. *Yay!* Time to take a break and go for big adventures! Right after defending, I went with my friends climbing to Leonidio in Greece for ten days but I didn't plan anything for the trail. Te Araroa had been in my mind for the past 6 months but I didn't do any preparation since then. It was end of November and I still didn't plan anything. I am usually trying not to stress by things, but this was the moment when I realised that time is ticking and if I want to do the trail this season, I should better start planning because I should be standing in Bluff at the beginning of the trail in not more than two months! So I started some actual planning.
 
 ## The big planning... or not?
 
@@ -47,6 +47,6 @@ There are plenty of resources on the web but some of them taht I founf particula
 * [**TA NOBO guide**](https://teararoanobo.net/) can be particularly useful if you are hiking NOBO like me because most of the resources are written for SOBO hikers and it's pain to read the trail notes from bottom to the top. This page also contains a lot of useful informations.
 * **WhatsApp group**. When you start hiking, you can ask in the Facebook group or people you meet on the trail if you can be added to the WhatsApp group. I almost never used the group but it is always good to be there in case you need to ask quickly.
 
-If you are interested about my gear list, you can continue reading the next [post]({{Site.BaseUrl}}/2025/08/30/TA_gear_list.html).
+If you are interested in my gear list, you can continue reading the next [post]({{Site.BaseUrl}}/2025/08/30/TA_gear_list.html).
 
 
