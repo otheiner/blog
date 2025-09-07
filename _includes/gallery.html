@@ -18,7 +18,7 @@
   </div>
 
 {% elsif type == "justified"%}
-  <div id="myGallery">
+  <div id="gallery-{{ gallery }}">
   {% for image in images %}
     {% assign parts = image | split: ',' %}
     {% assign src = parts[0] %}
