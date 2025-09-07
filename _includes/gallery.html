@@ -1,0 +1,46 @@
+
+{% assign images = include.images | split: ';' %}
+{% assign type = include.type | default: "simple" %}
+{% assign gallery = images[0] %}
+
+{% if type == "grid" %}
+  <div class="gallery-grid">
+    {% for image in images %}
+      {% assign parts = image | split: ',' %}
+      {% assign src = parts[0] %}
+      {% assign caption = parts[1] | default: "" %}
+      <div class="gallery-image">
+        <a href="{{ src }}" data-lightbox="{{ gallery }}" title="{{ caption }}">
+         <img src="{{ src }}" title="{{ caption }}">
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+
+{% elsif type == "justified"%}
+  <div id="myGallery">
+  {% for image in images %}
+    {% assign parts = image | split: ',' %}
+    {% assign src = parts[0] %}
+    {% assign caption = parts[1] | default: "" %}
+    <a href="{{ src }}" data-lightbox="{{ gallery }}" title="{{ caption }}">
+      <img src="{{ src }}" title="{{ caption }}" title="{{ caption }}">
+    </a>
+    {% endfor %}
+  </div>
+  
+{% else %}
+  <div class="gallery-simple">
+    {% for image in images %}
+      {% assign parts = image | split: ',' %}
+     {% assign src = parts[0] %}
+     {% assign caption = parts[1] | default: "" %}
+     <div class="gallery-image">
+        <a href="{{ src }}" data-lightbox="{{ gallery }}" title="{{ caption }}">
+         <img src="{{ src }}" title="{{ caption }}">
+        </a>
+        <div class="gallery-caption">{{ caption }}</div>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}

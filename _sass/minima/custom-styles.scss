@@ -44,3 +44,35 @@ p > img + em {
   margin-bottom: 0.5rem; /* space between image and whatever follows */
 }
 
+.gallery-image {
+  text-align: center;         /* center image + caption */
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* two equal columns */
+  column-gap: 0.5em; /* spacing between columns */
+  row-gap: 0.5em;  /* spacing between rows */
+  margin-top: 20em;            /* spacing between image and caption */
+}
+
+.gallery-grid .gallery-image img {
+  max-width: 100%;
+}
+
+.gallery-simple {
+  display: flex;
+  flex-wrap: wrap;       /* allow images to wrap to next line */
+  justify-content: center; /* center images horizontally */
+}
+
+.gallery-simple .gallery-image img {
+  max-width: 80%;
+  margin-top: 1em;
+}
+
+.gallery-caption {
+  font-style: italic;
+  color: #adadad;
+}
+
