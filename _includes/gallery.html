@@ -21,10 +21,10 @@
   <div id="gallery-{{ gallery }}">
   {% for image in images %}
     {% assign parts = image | split: ',' %}
-    {% assign src = parts[0] %}
-    {% assign caption = parts[1] | default: "" %}
-    <a href="{{ src }}" data-lightbox="{{ gallery }}" title="{{ caption }}">
-      <img src="{{ src }}" title="{{ caption }}" title="{{ caption }}">
+    {% assign src = parts[0] | strip %}
+    {% assign caption = parts[1] | default: "" | strip %}
+    <a href="{{ src | relative_url}}" data-lightbox="{{ gallery }}" title="{{ caption }}">
+      <img src="{{ src | relative_url}}" title="{{ caption }}" title="{{ caption }}">
     </a>
     {% endfor %}
   </div>
