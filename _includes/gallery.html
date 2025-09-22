@@ -7,8 +7,8 @@
   <div class="gallery-grid">
     {% for image in images %}
       {% assign parts = image | split: ',' %}
-      {% assign src = parts[0] %}
-      {% assign caption = parts[1] | default: "" %}
+      {% assign src = parts[0] | strip %}
+      {% assign caption = parts[1] | default: "" | strip %}
       <div class="gallery-image">
         <a href="{{ src }}" data-lightbox="{{ gallery }}" title="{{ caption }}">
          <img src="{{ src }}" title="{{ caption }}">
@@ -33,8 +33,8 @@
   <div class="gallery-simple">
     {% for image in images %}
       {% assign parts = image | split: ',' %}
-     {% assign src = parts[0] %}
-     {% assign caption = parts[1] | default: "" %}
+     {% assign src = parts[0] | strip %}
+     {% assign caption = parts[1] | default: "" | strip %}
      <div class="gallery-image">
         <a href="{{ src }}" data-lightbox="{{ gallery }}" title="{{ caption }}">
          <img src="{{ src }}" title="{{ caption }}">

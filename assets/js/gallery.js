@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
   $('[id^=gallery-]').each(function() {
     $(this).justifiedGallery({
       rowHeight : 150,
-      lastRow : 'center',
+      lastRow : 'justify',
       margins : 5
     });
   });
