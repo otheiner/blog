@@ -5,7 +5,8 @@
     {%- assign page_paths = site.minima.nav_pages | default: default_paths -%}
     {%- assign page_titles = site.pages | map: 'title' | compact %}
     <a class="site-title" href="{{ site.baseurl }}/">
-    <img src="/assets/images/logo.png" class="site-logo" width="100" height="auto">
+    <img src="{{ '/assets/images/logo.png' | relative_url }}" class="site-logo" width="100" height="auto">
+
 
     {%- unless page_titles == empty %}
       <nav class="site-nav">
