@@ -76,3 +76,99 @@ p > img + em {
   color: #adadad;
 }
 
+/* ------------------ General Header ------------------ */
+.site-header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+/* ------------------ Hidden checkbox ------------------ */
+.nav-trigger {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: 0 !important;
+  overflow: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  z-index: -1;
+}
+
+/* ------------------ Hamburger button ------------------ */
+.nav-toggle {
+  display: none; /* hidden by default */
+  cursor: pointer;
+  position: relative;
+  z-index: 1000;
+}
+
+/* ------------------ Desktop layout ------------------ */
+.site-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  margin: 0;
+  position: static;
+  background: transparent;
+  box-shadow: none;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+}
+
+/* ------------------ Mobile dropdown ------------------ */
+@media (max-width: 600px) {
+  .nav-toggle {
+    display: block; /* show hamburger */
+  }
+
+  .nav-menu {
+    display: none; /* hide inline menu */
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 200px;
+    background: #fff;
+    border-radius: 0.25rem;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    z-index: 999;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+
+  /* Show dropdown only when checkbox is checked */
+  .nav-trigger:checked ~ .nav-menu {
+    display: flex;
+    max-height: 500px;
+  }
+
+  .nav-menu a {
+    display: block;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #eee;
+  }
+
+  .nav-menu a:last-child {
+    border-bottom: none;
+  }
+
+}

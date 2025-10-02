@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Aboutt
-permalink: /aboutt/
+title: About
+permalink: /about/
 ---
 
 Hello stranger, 
