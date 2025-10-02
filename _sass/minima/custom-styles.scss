@@ -137,6 +137,7 @@ p > img + em {
 @media (max-width: 600px) {
   .nav-toggle {
     display: block; /* show hamburger */
+    align-items: center;
   }
 
   .nav-menu {
@@ -172,3 +173,5 @@ p > img + em {
   }
 
 }
+
+
