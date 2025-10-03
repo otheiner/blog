@@ -25,7 +25,7 @@ Happy trails!
 * **sunscreen** (I had to buy a few during the trail)
 * **gilette** (I didn't shave but it would be useful in case I needed to use kinesiotapes - body hairs and tapes don't work well together)
 * **toilet paper**
-* **poop shovel** (to burry your poop and make sure that animals don't spread feaces it to water sources)
+* **poop shovel** (to burry your poop and make sure that animals don't spread feaces to water sources)
 * **little soap**
 * **paper tissues**
 * **small towel** (very light Sea To Summit towel)
@@ -41,14 +41,14 @@ Happy trails!
 * **long running leggings**
 * **Merino shirt with long sleeve** (two times)
 * **T-shirt with short sleeve** (for most of the hiking)
-* **Merino underwear** (doesn't smell and keeps you warm even if it gets wet from the rain or river crossing.)
+* **Merino underwear** (Two pairs - you wear one and you can wash the other. Merino underwear doesn't smell and keeps you warm even if it gets wet from the rain or river crossing.)
 * **socks** (three pairs at the beginning but I had to buy a few more pairs because I started having holes in them)
 * **trail cap with 🚀** (my secret weapon, source of energy and protection against the sun)
 
 ### Electronics
 * **headlamp**
 * **red light** (I bought it in the second half of the trail when there were a lot of road walking and I sometimes had to walk in a low visibility or in the dark)
-* **powerbanks** (I had two, 10 000 mAh and 20 000 mAh, just to have one for my watch and the other for the phone. Keeping wqtch charged was important for navigation, phone mostly for pictures.)
+* **powerbanks** (I had two, 10 000 mAh and 20 000 mAh, just to have one for my watch and the other for the phone. Keeping watch charged was important for navigation, phone mostly for pictures.)
 * **solar panel** (Goal Zero - I wouldn't bring it next time to *this* trail. New Zealand is wild but I always had opportunity to recharge powerbanks almost every week.)
 * **phone**
 * **GPS watch** (Garmin Forerunner 945 - I used it for tracking and navigation)
