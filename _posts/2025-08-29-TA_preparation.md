@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Te Araroa Trail - Preparation For The Trail
+title: What I Did to Be Ready for Te Araroa – And You Can Too
 tags: hiking TeAraroa
 image_preview: /assets/images/TA/ridge.jpeg
 image_heading: /assets/images/TA/ridge.jpeg
 ---
 
-It was the end of October 2024, I officially defended my [thesis](https://repository.cern/records/wp9p0-hkk75) titled "Searching for new physics using the ATLAS and FASER detectors" and became a doctor of philosophy a.k.a. Ph.D. *Yay!* Time to take a break and go for big adventures! Right after defending, I went with my friends climbing to Leonidio in Greece for ten days but I didn't plan anything for the trail. Te Araroa had been in my mind for the past 6 months but I didn't do any preparation since then. It was end of November and I still didn't plan anything. I am usually trying not to stress by things, but this was the moment when I realised that time is ticking and if I want to do the trail this season, I should better start planning because I should be standing in Bluff at the beginning of the trail in not more than two months! So I started some actual planning.
+It was the end of October 2024, I officially defended my [thesis](https://repository.cern/records/wp9p0-hkk75) titled "Searching for new physics using the ATLAS and FASER detectors" and became a doctor - *Yay!* Time to take a break and go for big adventures! Right after defending, I went with my friends climbing to Leonidio in Greece for ten days but I didn't plan anything for the trail. Te Araroa had been in my mind for the past 6 months but I didn't do any preparation since then. It was end of November and I still didn't plan anything. I am usually trying not to stress by things, but this was the moment when I realised that time is ticking and if I want to do the trail this season, I should better start planning because I should be standing in Bluff at the beginning of the trail in not more than two months! So I started some actual planning.
 
 ## The big planning... or not?
 

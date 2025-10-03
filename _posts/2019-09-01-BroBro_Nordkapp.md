@@ -1,6 +1,6 @@
 ---
 layout: post
-title: From Czechia To The Top Of Europe On Scooter
+title: Scootering From Czechia to Nordkapp - Because Cars Are Overrated
 tags: scooter BroBro
 image_heading: /assets/images/BroBro/nordkapp.jpeg
 image_preview: /assets/images/BroBro/nordkapp.jpeg

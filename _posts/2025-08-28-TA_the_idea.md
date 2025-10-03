@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Te Araroa Trail - How It All Started?
+title: It All Started Innocently… Then I Walked Across New Zealand
 tags: hiking TeAraroa
 image_preview: /assets/images/TA/spirit_tree.jpeg
 image_heading: /assets/images/TA/spirit_tree.jpeg

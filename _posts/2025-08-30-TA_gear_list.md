@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Te Araroa Trail - Gear List
+title: 3,000 km of Te Araroa - Stuff I Carried (and Stuff I Should’ve Left Behind)
 tags: hiking TeAraroa
 image_preview: /assets/images/TA/gear.jpeg
 image_heading: /assets/images/TA/gear_heading.png
