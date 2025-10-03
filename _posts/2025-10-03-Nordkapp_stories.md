@@ -6,13 +6,13 @@ image_preview: /assets/images/BroBro/NordkappStories_2.jpeg
 image_heading: /assets/images/BroBro/NordkappStories_5.jpeg
 ---
 
-I never thought that travelling by scooter across Europe, can potentially change someone's life for better. But this is exacty what happened and I want to share this story. Our story about the big scooter trip from the Czech Republic to Norway evolved into something that we didn't expected. If you've read my older [post]({{ '/2019/09/01/BroBro_Nordkapp.html' | relative_url }}), you know that when we were leaving Nordkapp, we were stopped by the belgian journalist Michael Van Peel who interviewd us for his podcast. The podcast was never published because Michael decided to use the material in another way. He collected stories of many people who arrived at Nordkapp using unusual means of transport and he decided to publish these stories in form of short interviews in a book called "Nordkapp Stories".
+I never thought that travelling by scooter across Europe, can potentially impact people's lifes. But this is exacty what happened and I want to share this story. Our story about the big scooter trip from the Czech Republic to Norway evolved into something that we didn't expected. If you've read my older [post]({{ '/2019/09/01/BroBro_Nordkapp.html' | relative_url }}), you know that when we were leaving Nordkapp, we were stopped by the belgian journalist Michael Van Peel who interviewd us for his podcast. The podcast was never published because Michael decided to use the material in another way. He collected stories of many people who arrived at Nordkapp using unusual means of transport and he decided to publish these stories in form of short interviews in a book called "Nordkapp Stories".
 
 The book was published during the times of covid pandemic, and Michael even sent us one copy of the book with a dedication.
 
 {% include gallery.html 
 	type="justified" 
-	images="/assets/images/BroBro/NordkappStories_4.jpeg, The message in the book tha Michael sent us.;
+	images="/assets/images/BroBro/NordkappStories_4.jpeg, The message in the book that Michael sent us.;
 			"%}
 It was a nice feeling to be able to hold this book. We were in the book with other crazy travellers by a pure lucky coincidence but it was great to be able to hold this little souvenir from our crazy journey we did in 2019. If this was already the end of the story, we would be happy. But it was not.
 
