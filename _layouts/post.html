@@ -38,15 +38,26 @@ layout: base
           {{ mdate | date: date_format }}
         </time>
       {%- endif -%}
-      {%- if page.author %}
+
+      {% if page.author %}
       <div class="{% unless page.modified_date %}force-inline {% endunless %}post-authors">
         {%- for author in page.author %}
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
-          {%- if forloop.last == false %}, {% endif -%}
+          {% if forloop.last == false %}, {% endif -%}
         {% endfor %}
       </div>
       {%- endif %}
+
+      {%- if page.tags -%}
+        <br>
+        {% for tag in page.tags %}
+          <a href="{{site.baseurl}}/categories.html#{{tag | slugize}}">
+            #{{ tag }}
+          </a>
+        {% endfor %}
+      {%- endif -%}
+
     </div>
   </header>
 
