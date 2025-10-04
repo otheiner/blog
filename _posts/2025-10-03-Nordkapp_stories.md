@@ -1,24 +1,24 @@
 ---
 layout: post
-title: How our trip to Nordkapp changed someone's life
+title: The Scooter Trip That Changed More Than Just Our Lives
 tags: scooter BroBro
 image_preview: /assets/images/BroBro/NordkappStories_2.jpeg
 image_heading: /assets/images/BroBro/NordkappStories_5.jpeg
 ---
 
-I never thought that travelling by scooter across Europe, can potentially impact people's lifes. But this is exacty what happened and I want to share this story. Our story about the big scooter trip from the Czech Republic to Norway evolved into something that we didn't expected. If you've read my older [post]({{ '/2019/09/01/BroBro_Nordkapp.html' | relative_url }}), you know that when we were leaving Nordkapp, we were stopped by the belgian journalist Michael Van Peel who interviewd us for his podcast. The podcast was never published because Michael decided to use the material in another way. He collected stories of many people who arrived at Nordkapp using unusual means of transport and he decided to publish these stories in form of short interviews in a book called "Nordkapp Stories".
+I never thought that travelling by scooter across Europe could actually change people’s lives. But that’s exactly what happened, and I want to share this story. Our big scooter trip from the Czech Republic to Norway turned into something we never expected. If you’ve read my earlier [post]({{ '/2019/09/01/BroBro_Nordkapp.html' | relative_url }}), you know that when we were leaving Nordkapp, we were stopped by the Belgian journalist Michael Van Peel, who interviewed us for his podcast. The podcast was never published because Michael decided to use the material differently. He collected stories from many people who reached Nordkapp using unusual means of transport and published them as short interviews in a book called *Nordkapp Stories*.
 
-The book was published during the times of covid pandemic, and Michael even sent us one copy of the book with a dedication.
+The book was released during the COVID pandemic, and Michael even sent us a copy with a personal dedication.
 
 {% include gallery.html 
 	type="justified" 
 	images="/assets/images/BroBro/NordkappStories_4.jpeg, The message in the book that Michael sent us.;
 			"%}
-It was a nice feeling to be able to hold this book. We were in the book with other crazy travellers by a pure lucky coincidence but it was great to be able to hold this little souvenir from our crazy journey we did in 2019. If this was already the end of the story, we would be happy. But it was not.
+It was a wonderful feeling to hold the book in my hands. By pure luck, our story ended up alongside those of other crazy travellers, and it felt great to have this little souvenir from our 2019 journey. If the story had ended there, we would have been happy. But it didn’t.
 
-At the begining of September, we unexpectedly received e-mail from Michael. I was happy to see that he still remebered us, so I quickly read the email and when I finished reading, I was feeling a bit emotional. He wanted to know how we are doing but the main reason why he was writing us was the e-mail he received from someone. This man was grateful for the inspiring book and, in particular, he was mentioning our story as the one, which helped his friend to regain a little bit of autonomy after he suffered bad injury.
+At the beginning of September this year, we unexpectedly received an email from Michael. I was glad to see that he still remembered us, so I quickly opened it. By the time I finished reading, I was feeling a bit emotional. He wanted to know how we were doing, but the main reason he wrote to us was to share another email he had received. It came from a man who was grateful for the inspiring book and, in particular, mentioned our story as the one that helped his friend regain a little bit of autonomy after suffering a serious injury.
 
-This is the e-mail:
+This is the email:
 
 >Hi Michael,
 >
@@ -43,7 +43,7 @@ This is the e-mail:
 >Best regards, <br>
 >...
 
-I have to say that this message made me incredibly happy. I love adventures but I am also aware that being able to do similar things is kind of a privilage and I try to keep that in mind. I am healthy, I have time, and I am at stage of my life when I can allow myself to do these things. It is not always easy and it needs some dedication but that's my choice. I choose to do it, but there are people who can't, even if they wanted to. And so knowing that our story had positive impact on someone's life (and it doesn't matter it is a single person) is extemely fulfilling and makes me thing that seemingly silly activity, such as riding scooter, can help make this world slightly better place.
+I have to say, this message made me incredibly happy. I love adventures, but I’m also aware that being able to do things like this is a privilege, and I try to keep that in mind. I’m healthy, I have the time, and I’m at a stage of life where I can allow myself to do these things. It’s not always easy, and it takes dedication, but it’s my choice. I choose to do it, while many people can’t, even if they want to. That’s why knowing our story had a positive impact on someone’s life (even if it’s just one person) is extremely fulfilling. It makes me realize that a seemingly silly activity, like riding a scooter, can actually make the world just a little bit better.
 
 {% include gallery.html 
 	type="justified" 
@@ -52,5 +52,5 @@ I have to say that this message made me incredibly happy. I love adventures but 
 			assets/images/BroBro/NordkappStories_5.jpeg, Nordkapp Stories.
 			"%}
 
-*PS: If you want to read the interview (in English) Michael van Peel made with us, you can have a look at the book [sample](https://www.michaelvanpeel.be/download/excerpt_NS_lores_EN.pdf?_gl=1*7my2om*_ga*MTM5MDYwNTg5My4xNzU5NTEyMDAw*_ga_TBSW8R7218*czE3NTk1MTE5OTkkbzEkZzEkdDE3NTk1MTIwNzckajYwJGwwJGgw) at his webpage and our interview starts at document page number 17.*
+*PS: If you want to read the interview (in English) Michael Van Peel made with us, you can have a look at the book [sample](https://www.michaelvanpeel.be/download/excerpt_NS_lores_EN.pdf?_gl=1*7my2om*_ga*MTM5MDYwNTg5My4xNzU5NTEyMDAw*_ga_TBSW8R7218*czE3NTk1MTE5OTkkbzEkZzEkdDE3NTk1MTIwNzckajYwJGwwJGgw) at his webpage and our interview starts at document page number 17.*
 
