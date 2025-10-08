@@ -18,6 +18,7 @@ Happy trails!
 ### Backpacks and bags
 * **backpack** (Hyperlite - 55 liters, tall version - this backpack is rainproof!)
 * **dry bags** (to sort my stuff inside the backpack and make sure that things stay dry even if some water gets inside the backpack)
+* **waterproof pocket for the phone** (you never know when you are going to fall to river when river crossing, or when you are going to end up in heavy rain)
 
 ### Hygiene
 * **toothbrush**
@@ -86,3 +87,5 @@ Happy trails!
 * **passport**
 * **thin cord** (for hanging wet clother or minor repairs)
 * **trash bag** (makes it easier to keep trash in one place)
+
+If you want to know about beginning of my journey on the trail, you can continue [reading]({{ '/2025/10/07/TA_part1.html' | relative_url }}).

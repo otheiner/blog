@@ -6,7 +6,7 @@
 {% if type == "grid" %}
   <div class="gallery-grid">
     {% for image in images %}
-      {% assign parts = image | split: ',' %}
+      {% assign parts = image | split: '>' %}
       {% assign src = parts[0] | strip %}
       {% assign caption = parts[1] | default: "" | strip %}
       <div class="gallery-image">
@@ -20,7 +20,7 @@
 {% elsif type == "justified"%}
   <div id="gallery-{{ gallery }}">
   {% for image in images %}
-    {% assign parts = image | split: ',' %}
+    {% assign parts = image | split: '>' %}
     {% assign src = parts[0] | strip %}
     {% assign caption = parts[1] | default: "" | strip %}
     <a href="{{ src | relative_url}}" data-lightbox="{{ gallery }}" title="{{ caption }}">
@@ -32,7 +32,7 @@
 {% else %}
   <div class="gallery-simple">
     {% for image in images %}
-      {% assign parts = image | split: ',' %}
+      {% assign parts = image | split: '>' %}
      {% assign src = parts[0] | strip %}
      {% assign caption = parts[1] | default: "" | strip %}
      <div class="gallery-image">

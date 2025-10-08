@@ -12,6 +12,11 @@ Targeted advertising on the internet is evil! And this is doubly true when you e
 
 At the end of August last year (2018), my brother and I returned from our expedition from České Budějovice to Split. I rode a scooter and my brother rode a bike. We slept outdoors and carried all our belongings with us. It was the second trip of this kind that we had taken together. The first was in 2017 and led from České Budějovice through the Alps to Venice. 
 
+{% include gallery.html 
+	type="justified" 
+	images="/assets/images/BroBro/10.jpeg > Me and my main mean of transport during this adventure - my scooter.;
+			"%}
+
 The trips were great. On such a journey, you limit yourself to basic needs such as rest, food, and the ride itself, and you don't need much to be happy. Maybe just that it's not raining, or that it was warm and you could swim in the river, so you won't fall asleep all sweaty in the evening. But the problem arises when you return home. They are suddenly plunged into the sea of everyday life, where they encounter the petty problems of daily life, but their mind is still on the road. During this period, they are pumped up with the experiences of the past few days, and a little voice in their head keeps nagging them about what else they could do. I felt the same way last year, and so it happened that a few weeks after returning from Croatia, an advertisement for the North Cape 4000 ultra cycling race popped up on Facebook. The race is non-stop without any support. It starts in Italy, is about 4,000 km long, and the finish line is at the northernmost point of Europe – Nordkapp. When I saw photos from the race, I suddenly had the idea to try to make a trip to Nordkapp from České Budějovice and get there on a scooter. 
 	
 Over the course of the year, the idea began to take shape. Especially in the second half of the year, while writing my thesis and preparing for my final exams, when my head was spinning from all the studying. Planning the trip, buying the necessary equipment, choosing a suitable date... I even managed to convince my brother, who wanted to go by bike, so the two of us started looking forward to the trip.
@@ -28,7 +33,7 @@ After three days of traveling, we left the Czech Republic just beyond Adršpach,
 
 {% include gallery.html 
 	type="justified" 
-	images="/assets/images/BroBro/01.jpg, We are leaving the Czech Republic behind.;
+	images="/assets/images/BroBro/01.jpg> We are leaving the Czech Republic behind.;
 			"%}
 
 As for sleeping in this country, we noticed that they have a great network of bus stops, most of which have roofs and provide a nice place to sleep at night, sheltered from the wind and rain. Sleeping at a bus stop is often more comfortable than setting up a tarp every evening. Moreover, we knew that we would be using tarps a lot in the coming weeks, so we were happy to use the stops. Interestingly, the stops were often in such remote places that the bus probably only passed through once a year at most. At least, that's what we think, because we never saw a bus there. 
@@ -48,7 +53,7 @@ We continued along the coast to the next country. On the evening of the fifteent
 
 {% include gallery.html 
 	type="justified" 
-	images="/assets/images/BroBro/02.jpg, A little victory - we got to the shore of Baltic sea.;
+	images="/assets/images/BroBro/02.jpg> A little victory - we got to the shore of Baltic sea.;
 			"%}
 
 
@@ -62,7 +67,7 @@ Finland and Norway in general were countries full of nice encounters with local 
 
 {% include gallery.html 
 	type="justified" 
-	images="/assets/images/BroBro/03.jpg, Welcome to Helsinki.;
+	images="/assets/images/BroBro/03.jpg> Welcome to Helsinki.;
 			"%}
 
 From Helsinki, we continued north through the city of Jyväskylä to Oulu, located on the northern shore of the Gulf of Bothnia. Here, the landscape began to change slowly, and the endless forests were occasionally replaced by swamps and peat bogs, which appeared more and more frequently as we headed north. We were slowly approaching Lapland. The landscape here is harsh, and the people who live here have to adapt to it. As an example of a tough northerner we saw on the way, I can mention a guy who was mowing the grass in front of his house with a scythe. The plot of land was not exactly small. What's more, this guy wasn't pushing a single mower in front of him. He was pushing two – one in each hand. And he was smiling cheerfully at us as he did so. From this, we concluded that the people here must be really tough. We never found out whether the large meadows that sometimes appear in Finland are mowed by guys who each push two mowers. But I would believe it.
@@ -73,7 +78,7 @@ We also have a funny story from this part of the trip. In the evening, we were s
 
 {% include gallery.html 
 	type="justified" 
-	images="/assets/images/BroBro/05.jpg, Endless finnish roads and unexpectedly warm weather.;
+	images="/assets/images/BroBro/05.jpg> Endless finnish roads and unexpectedly warm weather.;
 			"%}
 
 The next day, we wanted to get to the city of Rovaniemi. Again, we were driving through endless forests that morning when suddenly there was a sign next to the road saying "watch out for planes" and we suddenly found ourselves on a runway. The road simply turned into a runway for about a kilometer and then turned back into a normal road. Here in the north, where there are huge distances between villages and it is not even possible to make an emergency landing in the forests, this is perhaps not unusual.
@@ -84,7 +89,7 @@ From Rovaniemi, we continued along the left, less frequented bank of the Ounas R
 
 {% include gallery.html 
 	type="justified" 
-	images="/assets/images/BroBro/06.jpg, Our tarps - sleeping outdoors is leagal almost everywhere in Finlad.;
+	images="/assets/images/BroBro/06.jpg> Our tarps - sleeping outdoors is leagal almost everywhere in Finlad.;
 			"%}
 
 From the town of Sirkka came the dreaded 60-kilometer stretch of gravel road. Fortunately, the road was well-travelled, so it was easy to drive on and we didn't get a flat tire or, God forbid, cut through the tire. That's what I was most afraid of, because we didn't have a spare tire and, in the worst case, that would mean hitchhiking back to Rovaniemi. Fortunately, that didn't happen, and we reached nice asphalt again, which began in the village of Pokka. Or rather, a hamlet. This village has only a gas station, a snack bar, and a tourist shop in one building, plus about three other buildings, so it's definitely not a metropolis. However, the village has a relatively tactical location, and especially in winter, when snowmobiles are widely used here, everyone has to stop here to refuel because it is about a snowmobile's driving distance from other villages. We met some nice people at the snack bar. One of them was a Russian-Finnish couple who were filming a television documentary about survival in the harsh Lapland wilderness, à la Bear Grylls. They looked hardened by nature, but even so, they couldn't understand how anyone could voluntarily travel such a distance on a scooter. Then we also met a Frenchman on a bike who was also headed for Norkdapp. Even though we had never seen each other before, he knew about us because he had met the cyclists we had met two days earlier. Apparently, they said we were always eating. I have to admit that it was true, we ate like crazy (especially me), but on the other hand, even though I was riding a scooter, we were faster than them, and even faster than our French friend on his bike. We covered the 500 kilometers that remained to Nordkapp almost a day earlier than him, so that's about it. 
@@ -97,6 +102,11 @@ A short distance beyond Inari, we saw the first sign for North Cape, which meant
 
 The road was almost entirely downhill throughout Finland, even though the climbs were only a few meters up and then down again. But here in the far north of Finland, the road sometimes looked like a roller coaster. We could see several kilometers ahead of us, and the road swayed up and down countless times. Even the pine forests slowly began to turn into birch forests, and the trees became so short that you could just about see over them. Here and there we spotted a reindeer and once even a moose. The sun was still above the horizon after 10 p.m., so we were able to make up for the kilometers we had lost due to our increasingly lazy pace when packing our tarps in the morning.
 
+{% include gallery.html 
+	type="justified" 
+	images="/assets/images/BroBro/11.jpeg> Us when the weather was still good.;
+			"%}
+
 ## Norway – the last country on the trip
 
 On the thirty-first day of the trip, we descend to the Karášjohka River and enter Norway. In the city of the same name, we were shocked when shopping for lunch in a supermarket. If Finland was expensive, Norway is outrageously expensive. The prices are more or less the same as in the Czech Republic, but the Norwegian krone is worth about CZK 2.7, so a loaf of bread, for example, costs the equivalent of about CZK 100. Fortunately, coffee in a restaurant here costs about the same as coffee in the center of Prague, which is quite a lot, but after a month of traveling, the last few days of which have been relatively cold, it is acceptable, so we sit down in a restaurant for about an hour. We charge our phones and notice a girl and a guy at the next table, both in cycling gear. They have relatively lightly loaded bikes in front of the restaurant. I can't help myself and strike up a conversation with them. I find out that they are Australians living in France and have now set off on a journey from Nordkapp to Athens. While they are only at the beginning of their journey, we have less than 300 kilometers left to our destination. On the one hand, I'm glad, but I also envy them a little, because they have a lot of adventures ahead of them that will soon be over for us. Before we say goodbye, we exchange information about the trip. They tell us what to expect in the north, and we give them a few tips on traveling through the Baltic states and camping outside Scandinavia.  
@@ -105,7 +115,7 @@ After Karášjohka, we have a few kilometers of climbing ahead of us, followed b
 
 {% include gallery.html 
 	type="justified" 
-	images="/assets/images/BroBro/07.jpg, End of heatwaves - the true north finally started.;
+	images="/assets/images/BroBro/07.jpg> End of heatwaves - the true north finally started.;
 			"%}
 
 On our first night in Norway, we set up our tarps in a valley below the mountains. The highest peaks here are just over a thousand meters, but even so, some of them are covered in snowfields. It's starting to get colder, but we expected that. During the day, I need less clothing on my scooter than my brother on his bike, who doesn't get as warm at our travel speed, and at night I hide in a warm down sleeping bag. From riding in winter, I have found that an Icebreaker long-sleeved shirt and a light sweatshirt are enough for temperatures up to two degrees above zero. Riding with a backpack also keeps me warm. My brother, on the other hand, sometimes has a harder time. He decided to bring the same sleeping bag he took to Split, but here he realizes that the sleeping bag has definitely not been comfortable at 5°C for a few years now. So he regularly dresses in several layers of clothing for the night, and we also use the golden rescue foil that we carry with us just in case. It's a very handy thing that can make even a snack break in colder weather more pleasant.
@@ -116,14 +126,14 @@ It was already 8 p.m., but we wanted to ride at least another 15 kilometers to r
 
 {% include gallery.html 
 	type="justified" 
-	images="/assets/images/BroBro/08.jpg, Small village at the shore close to the Nordkapp.;
+	images="/assets/images/BroBro/08.jpg> Small village at the shore close to the Nordkapp.;
 			"%}
 
 We didn't feel like getting up the next morning and were extra slow packing, so we didn't set off until around noon. After about an hour of riding, we caught up with Josef, who had already covered 60 kilometers that day. We rode together for a while, then my brother and I picked up the pace a bit and headed for the tunnel. Nordkapp itself is on an island connected to the mainland by a 6,800-meter-long undersea tunnel. The tunnel runs 212 meters below sea level, so first you drive down a 9% incline for three kilometers and then up the same incline for three kilometers. We drive through the tunnel and are already speeding across the island of Magerøya. We drive through another four-kilometer tunnel and arrive in Honningsvag, the last village before Nordkapp. We buy food for the next day and set off on the last 30 kilometers of our journey. Even though we only reach an altitude of 360 meters, it feels like we are in the mountains. The landscape looks like it, and there are no trees. We see huge herds of reindeer and clouds rolling over the tops of the surrounding hills. I call it humid air. My brother claims that the air is somehow too humid because he can hear it falling on his jacket and see it dripping from his helmet. On top of that, the temperature is around 6°C. We try not to notice it and push through the midday kilometers. Even though the inclines are more than 13%, I refuse to push my scooter and just want to fight my way to the finish line. After two and a half hours of riding from Honningsvag, we pass the Nordkapp sign and see the tourist center behind it. We walk around it and behind it we see an iron globe – a characteristic statue for this place. There are still quite a few tourists here, but we are lucky and manage to take a photo with the globe without any people in it. We take the photo in style at exactly 8:00 p.m. We have 3,530 kilometers behind us in 33 days, and we are happy that we made it. Then we go to rest at the tourist center (and restaurant in one), which is open until 1:00 a.m. We meet cyclists from France and Switzerland and discuss our travel experiences long into the night. Even though it's a very touristy place, it has its own atmosphere, and people who got here under their own steam tend to flock together. We go to sleep at half past one in the morning, not far from the tourist center, behind a stone wall, where a few tents are already pitched.
 
 {% include gallery.html 
 	type="justified" 
-	images="/assets/images/BroBro/09.jpg, Nordkapp - the end of the world.;
+	images="/assets/images/BroBro/09.jpg> Nordkapp - the end of the world.;
 			"%}
 
 ## Return home

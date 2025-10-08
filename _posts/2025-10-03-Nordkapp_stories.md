@@ -12,7 +12,7 @@ The book was released during the COVID pandemic, and Michael even sent us a copy
 
 {% include gallery.html 
 	type="justified" 
-	images="/assets/images/BroBro/NordkappStories_4.jpeg, The message in the book that Michael sent us.;
+	images="/assets/images/BroBro/NordkappStories_4.jpeg> The message in the book that Michael sent us.;
 			"%}
 It was a wonderful feeling to hold the book in my hands. By pure luck, our story ended up alongside those of other crazy travellers, and it felt great to have this little souvenir from our 2019 journey. If the story had ended there, we would have been happy. But it didnâ€™t.
 
@@ -47,9 +47,9 @@ I have to say, this message made me incredibly happy. I love adventures, but Iâ€
 
 {% include gallery.html 
 	type="justified" 
-	images="/assets/images/BroBro/NordkappStories_12.jpeg, Our two pages of 'fame' written in Dutch.;
-			/assets/images/BroBro/NordkappStories_7.jpeg, Our two pages of 'fame' written in Dutch.;
-			assets/images/BroBro/NordkappStories_5.jpeg, Nordkapp Stories.
+	images="/assets/images/BroBro/NordkappStories_12.jpeg> Our two pages of 'fame' written in Dutch.;
+			/assets/images/BroBro/NordkappStories_7.jpeg> Our two pages of 'fame' written in Dutch.;
+			assets/images/BroBro/NordkappStories_5.jpeg> Nordkapp Stories.
 			"%}
 
 *PS: If you want to read the interview (in English) Michael Van Peel made with us, you can have a look at the book [sample](https://www.michaelvanpeel.be/download/excerpt_NS_lores_EN.pdf?_gl=1*7my2om*_ga*MTM5MDYwNTg5My4xNzU5NTEyMDAw*_ga_TBSW8R7218*czE3NTk1MTE5OTkkbzEkZzEkdDE3NTk1MTIwNzckajYwJGwwJGgw) at his webpage and our interview starts at document page number 17.*
