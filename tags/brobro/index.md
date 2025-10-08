@@ -1,7 +1,7 @@
 ---
 layout: tag
 tag: BroBro
-description: BroBro trips
+description: In 2017, I travelled with my brother from the Czech Republic to Venice. But it wasn't the typical journey that most of the tourist to Italy take. We didn't use car, bus, or plane, but I went by scooter (kickbike) and my brother went by bike. We slept outdoors and we covered 700 km in about 7 days. Since then, my brother and I did some other big trips (mostly by scooter and bike, but we also hiked) and since we are two brothers on the trip, we started calling our expeditions BroBro trip. You can check out our <a href=https://www.instagram.com/brobro_trip/?hl=cs>Instagram</a> which is active only when we are on BroBro trip, but you can still find there some cool pictures from our journeys.
 permalink: /tags/brobro/
-description: "BroBro trips"
+description: "In 2017, I travelled with my brother from the Czech Republic to Venice. But it wasn't the typical journey that most of the tourist to Italy take. We didn't use car, bus, or plane, but I went by scooter (kickbike) and my brother went by bike. We slept outdoors and we covered 700 km in about 7 days. Since then, my brother and I did some other big trips (mostly by scooter and bike, but we also hiked) and since we are two brothers on the trip, we started calling our expeditions BroBro trip. You can check out our <a href=https://www.instagram.com/brobro_trip/?hl=cs>Instagram</a> which is active only when we are on BroBro trip, but you can still find there some cool pictures from our journeys."
 ---
