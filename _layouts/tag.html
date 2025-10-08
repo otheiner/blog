@@ -1,0 +1,45 @@
+---
+layout: base
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- assign posts = site.tags[page.tag] | sort: 'date' | reverse -%}
+
+  {%- if posts.size > 0 -%}
+    <h2 class="post-list-heading">Posts tagged "{{ page.tag }}"</h2>
+    <ul class="post-list">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {%- for post in posts -%}
+      <li>
+        {%- if post.image_preview -%}
+          <img src="{{- post.image_preview | relative_url -}}" alt="" class="blog-roll-image">
+        {%- else -%}
+          {%- assign postImage = "/assets/images/default-image.jpeg" -%}
+          <img src="{{- postImage | relative_url -}}" alt="" class="blog-roll-image">
+        {%- endif -%}
+        
+        <span class="post-meta">{{ post.date | date: date_format }}</span> 
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+
+        {%- if site.minima.show_excerpts -%}
+          {{ post.content | truncatewords: 60 }}
+        {%- endif -%}
+        
+        <hr>
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- else -%}
+    <p>No posts found for this tag.</p>
+  {%- endif -%}
+</div>

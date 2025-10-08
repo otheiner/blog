@@ -14,7 +14,9 @@ permalink: /categories/
   {% assign tag_name_pretty = tag_name | replace: "_", " " | capitalize %}
   <div class="tag-list">
     <div id="#{{ tag_name | slugize }}"></div>
-    <h3 class="post-list-heading line-bottom"> In #{{ tag_name }}: </h3>
+    <h3 class="post-list-heading line-bottom">
+      In <a href="{{ site.baseurl }}/tags/{{ tag_name | slugize }}/">#{{ tag_name }}</a>:
+    </h3>
     <a name="{{ tag_name | slugize }}"></a>
     <ul class="post-list post-list-narrow">
      {% for post in site.tags[tag_name] %}
