@@ -37,11 +37,15 @@ if all_tags.empty?
   exit
 end
 
+# Load tag descriptions
+tag_descriptions = YAML.load_file('tag_descriptions.yml')
+
 # Generate a page per tag
 all_tags.each do |tag|
   # Clean up slug for URLs
   slug = tag.downcase.strip.gsub(/[^\w]+/, '-')
   tag_dir = File.join(TAGS_DIR, slug)
+  description = tag_descriptions[tag] || " "
   FileUtils.mkdir_p(tag_dir)
 
   File.write(
@@ -52,6 +56,7 @@ all_tags.each do |tag|
     tag: #{tag}
     description: #{description}
     permalink: /tags/#{slug}/
+    description: "#{description}"
     ---
     HEREDOC
   )

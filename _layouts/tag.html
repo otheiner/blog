@@ -13,6 +13,11 @@ layout: base
 
   {%- if posts.size > 0 -%}
     <h2 class="post-list-heading">Posts tagged "{{ page.tag }}"</h2>
+
+    <div class="tag-description">
+      {{ page.description }}
+    </div>
+    
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
