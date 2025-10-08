@@ -178,3 +178,20 @@ p > img + em {
   margin-bottom: 4rem; /* adds space below the description */
 }
 
+.tag-header {
+  background-color: #f0f0f0;   /* light grey */
+  border-radius: 12px;         /* rounded corners */
+  padding: 1rem 1.5rem;        /* space inside the rectangle */
+  margin-bottom: 2rem;         /* space below the rectangle */
+}
+
+.tag-header h2,
+.tag-header .tag-description {
+  margin: 0;                   /* reset default margins */
+}
+
+.tag-header .tag-description {
+  margin-top: 0.5rem;          /* small space below h2 */
+  font-size: 1rem;
+  color: #333;
+}
