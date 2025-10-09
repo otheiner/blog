@@ -15,7 +15,7 @@ permalink: /categories/
   <div class="tag-list">
     <div id="#{{ tag_name | slugize }}"></div>
     <h3 class="post-list-heading line-bottom">
-      In <a href="{{ site.baseurl }}/tags/{{ tag_name | slugize }}/">#{{ tag_name }}</a>:
+      In <a href="{{ site.baseurl }}/tags/{{ tag_name | slugize | downcase}}/">#{{ tag_name }}</a>:
     </h3>
     <a name="{{ tag_name | slugize }}"></a>
     <ul class="post-list post-list-narrow">
