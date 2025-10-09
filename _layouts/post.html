@@ -15,6 +15,10 @@ layout: base
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
+<!-- FB comments --> 
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v24.0&appId=APP_ID"></script>
+
   <header class="post-header">
     {%- if page.image_heading -%}
       <img src="{{- page.image_heading | relative_url -}}" alt="" class="featured-image-post">
@@ -65,15 +69,7 @@ layout: base
     {{ content }}
   </div>
 
-  {% if jekyll.environment == 'production' -%}
-    {% if page.comments == false -%}
-    <div class="comments-disabled-message">
-      Comments have been disabled for this post.
-    </div>
-    {% else -%}
-      {%- include comments.html -%}
-    {% endif -%}
-  {% endif -%}
+  <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="" data-numposts="10"></div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
