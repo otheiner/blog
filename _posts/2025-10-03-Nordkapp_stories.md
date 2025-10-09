@@ -6,7 +6,7 @@ image_preview: /assets/images/BroBro/NordkappStories_2.jpeg
 image_heading: /assets/images/BroBro/NordkappStories_5.jpeg
 ---
 
-I never thought that travelling by scooter across Europe could actually change people’s lives. But that’s exactly what happened, and I want to share this story. Our big scooter trip from the Czech Republic to Norway turned into something we never expected. If you’ve read my earlier [post]({{ '/2019/09/01/BroBro_Nordkapp.html' | relative_url }}), you know that when we were leaving Nordkapp, we were stopped by the Belgian journalist Michael Van Peel, who interviewed us for his podcast. The podcast was never published because Michael decided to use the material differently. He collected stories from many people who reached Nordkapp using unusual means of transport and published them as short interviews in a book called *Nordkapp Stories*.
+I never thought that travelling by scooter across Europe could actually change people’s lives. But that’s exactly what happened, and I want to share this story. Our big scooter trip from the Czech Republic to Norway turned into something we never expected. If you’ve read my earlier [post]({{ '/BroBro_Nordkapp' | relative_url }}), you know that when we were leaving Nordkapp, we were stopped by the Belgian journalist Michael Van Peel, who interviewed us for his podcast. The podcast was never published because Michael decided to use the material differently. He collected stories from many people who reached Nordkapp using unusual means of transport and published them as short interviews in a book called *Nordkapp Stories*.
 
 The book was released during the COVID pandemic, and Michael even sent us a copy with a personal dedication.
 

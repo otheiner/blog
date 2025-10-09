@@ -46,6 +46,6 @@ There are plenty of resources on the web but some of them taht I founf particula
 * [**TA NOBO guide**](https://teararoanobo.net/) can be particularly useful if you are hiking NOBO like me because most of the resources are written for SOBO hikers and it's pain to read the trail notes from bottom to the top. This page also contains a lot of useful informations.
 * **WhatsApp group**. When you start hiking, you can ask in the Facebook group or people you meet on the trail if you can be added to the WhatsApp group. I almost never used the group but it is always good to be there in case you need to ask quickly.
 
-If you are interested in my gear list, you can continue reading the next [post]({{ '/2025/08/30/TA_gear_list.html' | relative_url }}).
+If you are interested in my gear list, you can continue reading the next [post]({{ '/TA_gear_list' | relative_url }}).
 
 
