@@ -52,5 +52,5 @@ I have to say, this message made me incredibly happy. I love adventures, but Iâ€
 			assets/images/BroBro/NordkappStories_5.jpeg> Nordkapp Stories.
 			"%}
 
-*PS: If you want to read the interview (in English) Michael Van Peel made with us, you can have a look at the book [sample](https://www.michaelvanpeel.be/download/excerpt_NS_lores_EN.pdf?_gl=1*7my2om*_ga*MTM5MDYwNTg5My4xNzU5NTEyMDAw*_ga_TBSW8R7218*czE3NTk1MTE5OTkkbzEkZzEkdDE3NTk1MTIwNzckajYwJGwwJGgw) at his webpage and our interview starts at document page number 17.*
+*PS: If you want to read the interview (in English) Michael made with us, you can have a look at the book sample at his webpage and our interview starts at document page number 17. Link [here](https://www.michaelvanpeel.be/download/excerpt_NS_lores_EN.pdf?_gl=1*7my2om*_ga*MTM5MDYwNTg5My4xNzU5NTEyMDAw*_ga_TBSW8R7218*czE3NTk1MTE5OTkkbzEkZzEkdDE3NTk1MTIwNzckajYwJGwwJGgw).*
 
