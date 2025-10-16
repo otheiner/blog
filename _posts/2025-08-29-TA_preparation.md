@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What I Did to Be Ready for Te Araroa – And You Can Too
+title: (2) What I Did to Be Ready for Te Araroa – And You Can Too
 tags: hiking TeAraroa
 image_preview: /assets/images/TA/ridge.jpeg
 image_heading: /assets/images/TA/ridge.jpeg
