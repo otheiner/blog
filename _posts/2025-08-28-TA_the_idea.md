@@ -1,6 +1,6 @@
 ---
 layout: post
-title: It All Started Innocently… Then I Walked Across New Zealand
+title: 'Te Araroa stories: It All Started Innocently… Then I Walked Across New Zealand'
 tags: hiking TeAraroa
 image_preview: /assets/images/TA/spirit_tree.jpeg
 image_heading: /assets/images/TA/spirit_tree.jpeg
