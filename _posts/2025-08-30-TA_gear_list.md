@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Te Araroa stories: Stuff I Carried (and Stuff I Should’ve Left Behind) for 3000 km Long Journey'
+title: 'Te Araroa Stories: Stuff I Carried (and Stuff I Should’ve Left Behind) for 3000 km Long Journey'
 tags: hiking TeAraroa
 image_preview: /assets/images/TA/gear.jpeg
 image_heading: /assets/images/TA/gear_heading.png
