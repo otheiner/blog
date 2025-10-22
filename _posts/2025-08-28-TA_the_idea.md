@@ -8,7 +8,7 @@ image_heading: /assets/images/TA/spirit_tree.jpeg
 
 It was April 2024, and I was sitting in my office at the University of Geneva, pretending to look busy while analyzing data from the ATLAS experiment at CERN. My colleagues and I were searching for new particles called Higgsinos — tiny things that may or may not exist, unlike my social life at that time. Between writing a paper and wrestling with my dissertation chapters, I was desperate to see the light at the end of the academic tunnel. That’s when I started thinking: What am I going to do after I finally defend this thesis? I didn’t know the details yet, but I knew one thing — it had to be an adventure. A big one.
 
-## The first idea
+### The first idea
 
 Inspired by my previous adventures on a scooter — most of which happened before I started my studies in Geneva — I wanted to do something in a similar spirit. The only problem? I knew I’d finish my doctorate in October, and by that time Europe is already transforming into one big cold shower. Sure, a week or two of adventure would still be doable, but I wanted something properly big. The kind of adventure you can only do before you have a real job, responsibilities, and an HR department asking where you’ve disappeared.
 
@@ -20,7 +20,7 @@ The idea of a long thru-hike had been floating in my mind for years. I’d seen 
 
 I loved the idea instantly. I didn’t plan anything right away, but the thought stayed quietly in the back of my mind for months. So when I finally defended my thesis in October 2024, I didn’t have a backup plan — but Te Araroa was waiting. And that’s when I decided to make it real.
 
-## What is Te Araroa trail?
+### What is Te Araroa trail?
 
 Te Araroa in Māori means “The Long Pathway” and it absolutely lives up to the name. It’s a 3,040 km trail stretching across both the North and South Islands, climbing and descending over 80,000 meters of elevation (yes, that’s like going up Mount Everest about nine times). According to the official trail website, roughly 2,000 hikers complete it every year in one go, while many others choose to tackle only sections. It’s not as world-famous as the American giants like the PCT or Appalachian Trail, but it’s quickly gaining popularity — and for good reason.
 
