@@ -30,8 +30,9 @@ That said, the other direction is totally possible too, though it requires a few
 
 Timing, however, is everything. If you go SOBO, the ideal start is between October and December. Start too early, and you’ll get soaked by the North Island’s winter rains. Start too late, and you’ll hit the South Island mountains just in time for snow. If you go NOBO, the window shifts. You can usually begin around December to January, once the mountain snow has melted. Finishing in autumn up north isn’t a big deal, because the last 600 km, the area north of Auckland, is nicknamed the “winterless north.” It might rain, sure, but at least you won’t have to dig yourself out of a snowdrift.
 
-![Image]({{ '/assets/images/TA/trail_map.jpg' | relative_url }})
-*Fig: This is where the trail approximately goes. Image [source](https://www.teararoa.org.nz/about-te-araroa/).*
+{% include gallery.html 
+	images="/assets/images/TA/trail_map.jpg > Te Araroa trail - exactly the route I later did. The map was created by my friend Laura Pirovano from .gpx files from my Strava (thanks Laura!).
+			"%}
 
 More about the preparation for the trail is in the next [post]({{ '/TA_preparation' | relative_url }}).
 
