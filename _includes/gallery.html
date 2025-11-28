@@ -10,8 +10,8 @@
       {% assign src = parts[0] | strip %}
       {% assign caption = parts[1] | default: "" | strip %}
       <div class="gallery-image">
-        <a href="{{ src }}" data-lightbox="{{ gallery }}" title="{{ caption }}">
-         <img src="{{ src }}" title="{{ caption }}">
+        <a href="{{ src | relative_url}}" data-lightbox="{{ gallery }}" title="{{ caption }}">
+         <img src="{{ src | relative_url}}" title="{{ caption }}">
         </a>
       </div>
     {% endfor %}
@@ -36,8 +36,8 @@
      {% assign src = parts[0] | strip %}
      {% assign caption = parts[1] | default: "" | strip %}
      <div class="gallery-image">
-        <a href="{{ src }}" data-lightbox="{{ gallery }}" title="{{ caption }}">
-         <img src="{{ src }}" title="{{ caption }}">
+        <a href="{{ src | relative_url}}" data-lightbox="{{ gallery }}" title="{{ caption }}">
+         <img src="{{ src | relative_url}}" title="{{ caption }}">
         </a>
         <div class="gallery-caption">{{ caption }}</div>
       </div>
