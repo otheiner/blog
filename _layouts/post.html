@@ -66,4 +66,24 @@ layout: base
   </div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({
+      startOnLoad: false,
+      theme: 'default',
+      securityLevel: 'loose'
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+      document.querySelectorAll('pre > code.language-mermaid').forEach(function(block) {
+        var pre = block.parentElement;
+        var div = document.createElement('div');
+        div.className = 'mermaid';
+        div.textContent = block.textContent;
+        pre.parentElement.replaceChild(div, pre);
+      });
+      mermaid.run();
+    });
+  </script>
 </article>

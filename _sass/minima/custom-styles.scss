@@ -292,3 +292,25 @@ p > img + em {
   color: #843534;
 }
 /***********************************/
+
+.intro-note {
+  background-color: #f6f8fa;
+  border-left: 4px solid #6c757d;
+  padding: 1em 1.25em;
+  margin: 1.5em 0;
+  font-size: 0.9em;
+  color: #444;
+  border-radius: 4px;
+}
+
+.intro-note p {
+  margin: 0.5em 0;
+}
+
+.intro-note p:first-child {
+  margin-top: 0;
+}
+
+.intro-note p:last-child {
+  margin-bottom: 0;
+}
