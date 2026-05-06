@@ -17,7 +17,7 @@ PARAMETR-Bench, presented in this article, connects these three threads. It star
 </div>
 
 ## Table of Contents
-{:.no_toc}o
+{:.no_toc}
 
 * TOC
 {:toc}
