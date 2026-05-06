@@ -216,7 +216,7 @@ The framework populates the template using the ground truth stored in pandas Dat
 
 ### Evaluation Harness for AI Agents
 
-(TODO: This sectios is still being worked on)
+(TODO: This section is still being worked on)
 
 ## Tasks Included in the Framework
 
@@ -229,7 +229,7 @@ Currently, there are four proper tasks and two minimal working example tasks in 
 
 ### A Worked Example: Cepheid Period-Luminosity Calibration
 
-(TODO: This sectios is still being worked on)
+(TODO: This section is still being worked on)
 
 ### Other Tasks in the Framework
 
@@ -260,12 +260,12 @@ This is a slow experiment by design. The first contamination signal cannot arriv
 
 ## Related work
 
-(TODO: This sectios is still being worked on)
+(TODO: This section is still being worked on)
 
 ## Limitations and What's Next
 
-(TODO: This sectios is still being worked on)
+(TODO: This section is still being worked on)
 
 ## Conclusion
 
-(TODO: This sectios is still being worked on)
+(TODO: This section is still being worked on)
