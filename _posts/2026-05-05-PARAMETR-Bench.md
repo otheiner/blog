@@ -14,6 +14,8 @@ image_heading: /assets/images/PARAMETR-Bench/heading.png
 Problem design is a long thread in my background. As a high school student, I twice represented the Czech Republic at the International Olympiad on Astronomy and Astrophysics (IOAA), winning bronze medals in 2013 and 2014. Since starting university, I've been an organizer of the Czech Astronomy Olympiad, writing competition problems for students.
 
 PARAMETR-Bench, presented in this article, connects these three threads. It started as a curiosity project but grew into something I think is worth sharing. Despite the "Bench" in the name, my aim is not to build yet-another-benchmark, but to show my work and present a few interesting ideas I came across along the way. I welcome any comments and I'm open to discussion - just [reach out](https://otheiner.github.io/#contact).
+
+[![DOI](https://zenodo.org/badge/1197193977.svg)](https://doi.org/10.5281/zenodo.20076421)
 </div>
 
 ## Table of Contents
@@ -171,7 +173,7 @@ If evaluation data from specific public seeds were to leak into a model's traini
 
 ### Metarubrics and Rubrics
 
-The user only needs to define the templates (metarubrics), and the framework handles the rest. In this context, metarubrics are analogous to classes in object-oriented programming, while rubrics are specific instances of those classes instantiated with unique parameters for a given task. 
+The user only needs to define the templates (metarubrics); the framework handles the rest. Metarubrics are analogous to classes in object-oriented programming, while rubrics are specific instances of those classes instantiated with unique parameters for a given task. Each metarubric belongs to one of several categories, which lets the resulting evaluation distinguish between different failure modes — for example, errors in scientific reasoning, errors in image handling, or errors in data manipulation. This grouping is used in other benchmarks, such as SciCode[^scicode].
 
 The user provides a high-level template with placeholders.
 
@@ -180,6 +182,7 @@ The user provides a high-level template with placeholders.
     {
       "key": "z_estimation",
       "source": "analyzed_galaxies",
+      "category": "image handling",
       "name": "Redshift estimation",
       "description": "Did the model compute that galaxy {galaxy_ID} has redshift {z}, or a value strictly inside the interval [{z_min}, {z_max}]?",
       "weight": 5.0
@@ -194,6 +197,7 @@ The framework populates the template using the ground truth stored in pandas Dat
     {
       "key": "z_estimation",
       "name": "Redshift estimation",
+      "category": "image handling",
       "weight": 5.0,
       "total": 3,
       "rubrics": [
@@ -245,12 +249,13 @@ Apart from the `cepheid_calibration` task, there are three more complex physics 
   type="justified" 
   images="/assets/images/PARAMETR-Bench/hubble.png > Visualisation of the solution of Hubble constant estimation.;
           /assets/images/PARAMETR-Bench/invariant_mass.png > Mass spectrum that model has to reconstruct from the data and then fit the peak.;
-          /assets/images/PARAMETR-Bench/lissajous.png > Lissajous figure generated in one of the tasks.;
+          /assets/images/PARAMETR-Bench/lissajous.png > Lissajous figure generated in one of the tasks. Here the ratio of lobes is 3:5.;
       "%}
 
 Two minimal working examples follow. These tasks are simple and require no physics knowledge, so a potential contributor from a different field can examine the framework without having to understand the physics tasks. Both tasks have names prefixed with an underscore - by convention, tasks in PARAMETR-Bench whose names start with `_` are minimal working examples and are not included in the default benchmark evaluation, but they remain in the repository for demonstration and debugging. Even though both tasks are deliberately simple, they reveal interesting LLM failure modes. They're useful both as framework demonstrations and as small empirical probes of what current models still struggle with.
 
   - [`_count_circles`](https://github.com/otheiner/PARAMETR-Bench/blob/main/tasks/_count_circles/prompt.md): The model receives several images of black circles on a white background and is asked to count the circles in each, then compute the average. With few circles per image, most vision models handle this easily; with many circles per image, even capable models start to miscount, making this a useful illustration of when agentic evaluation outperforms direct visual reasoning.
+  
   - [`_compute_average`](https://github.com/otheiner/PARAMETR-Bench/blob/main/tasks/_compute_average/prompt.md): The model is given a list of numbers and asked to compute their average. Trivially easy in principle, but less capable models sometimes hallucinate the result when the list is long or the numbers contain many decimal places.
 
 
@@ -288,3 +293,7 @@ This is a slow experiment by design. The first contamination signal cannot arriv
 ## Conclusion
 
 (TODO: This section is still being worked on)
+
+## References
+
+[^scicode]: Tian et al., *SciCode: A Research Coding Benchmark Curated by Scientists* [arXiv:2407.13168](https://arxiv.org/abs/2407.13168).
