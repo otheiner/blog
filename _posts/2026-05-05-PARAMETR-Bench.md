@@ -68,7 +68,7 @@ graph TD
 ```
 </div>
 
-The user specifies two inputs at the start of a run: a set of seeds and a difficulty level. Each seed produces a distinct task instance. The difficulty level is shared across all sequences in the run. The following diagram shows what happens inside a single evaluation sequence.
+When running the benchmark, user specifies two inputs at the start of a run: a set of seeds and a difficulty level. Each seed produces a distinct task instance and the difficulty level is shared across all sequences in the run. The following diagram shows what happens inside a single evaluation sequence.
 
 <div style="text-align: center; max-width: 900px; margin: 0 auto;" markdown="1">
 ```mermaid
@@ -130,7 +130,7 @@ Task generation in PARAMETR-Bench uses seeded pseudo-random number generators, w
 
 Each task also ships with a configuration file that exposes the generator's parameters, grouped into three difficulty levels: easy, medium, and hard. These levels typically differ in dataset size, noise levels, and other parameters that control how challenging the task is to solve.
 
-The `_count_circles` task included in the framework is a useful illustration. Tasks prefixed with an underscore are minimal working examples — not used in evaluation by default, but kept in the repository for demonstration and debugging. The setup is simple: the model receives several images of black circles on a white background and is asked to count the circles in each, then compute the average. With at most 5 circles per image, most modern vision models handle this reliably. With 20 circles per image, even capable models start to miscount. This is precisely where agentic evaluation matters: a model that can write a Python script to detect and count the circles will succeed where direct visual counting fails. The same task, evaluated agentically versus non-agentically, measures qualitatively different capabilities. We will discuss the agentic vs. non-agentic aspect in depth later.
+The [`_count_circles`](https://github.com/otheiner/PARAMETR-Bench/blob/main/tasks/_count_circles/prompt.md) task included in the framework is a useful illustration. Tasks prefixed with an underscore are minimal working examples — not used in evaluation by default, but kept in the repository for demonstration and debugging. The setup is simple: the model receives several images of black circles on a white background and is asked to count the circles in each, then compute the average. With at most 5 circles per image, most modern vision models handle this reliably. With 20 circles per image, even capable models start to miscount. This is precisely where agentic evaluation matters: a model that can write a Python script to detect and count the circles will succeed where direct visual counting fails. The same task, evaluated agentically versus non-agentically, measures qualitatively different capabilities. We will discuss the agentic vs. non-agentic aspect in depth later.
 
 You can try the task generator yourself in the interactive demo hosted on Hugging Face Spaces:
 
@@ -218,7 +218,7 @@ The framework populates the template using the ground truth stored in pandas Dat
 
 (TODO: This section is still being worked on)
 
-## Tasks Included in the Framework
+## Tasks Included in PARAMETR-Bench
 
 Currently, there are four proper tasks and two minimal working example tasks in the repository. Initial tasks I created for PARAMETR-Bench have a few common features:
 
@@ -233,7 +233,26 @@ Currently, there are four proper tasks and two minimal working example tasks in 
 
 ### Other Tasks in the Framework
 
-(TODO: This sectios is still being worked on)
+Apart from the `cepheid_calibration` task, there are three more complex physics tasks and two minimal working examples to demonstarte the framework on the simplest cases. These minimal working examples are by default not included when running the whole benchmark, unless user specifies them. Following paragraphs briefly describe tasks currently included in the framework. For more details, check [Hugging Face Space](https://huggingface.co/spaces/otheiner/PARAMETR-Bench_demo) or `tasks` folder in [GitHub repo](https://github.com/otheiner/PARAMETR-Bench/).
+
+ - [`hubble_constant`](https://github.com/otheiner/PARAMETR-Bench/blob/main/tasks/hubble_constant/prompt.md): A data-analysis task inspired by Edwin Hubble's original work, one of the foundational results of observational cosmology. The model analyzes spectroscopic data to identify redshifts of fictitious galaxies, then combines this with Cepheid photometric data for distance calibration, and uses the result to estimate the local rate of cosmic expansion - the Hubble constant. It's effectively the inverse of the Cepheid calibration task, with a different spectral representation. The Hubble constant value is drawn fresh each run from a distribution whose mean is offset from current measurements, preventing the model from guessing a memorized value and forcing it to actually perform the analysis.
+
+ - [`invariant_mass_reconstruction`](https://github.com/otheiner/PARAMETR-Bench/blob/main/tasks/invariant_mass_reconstruction/prompt.md): A simplified version of an analysis performed by particle physicists at accelerators like the Large Hadron Collider at CERN. The model receives a description of the detector geometry and the simulated detector data - simplified readouts from a silicon tracker and an electromagnetic calorimeter. The data contain events in which an unknown particle decays into an electron-positron pair. For each event, the model must reconstruct the tracks of both particles (fitting a helix to the tracker hits) and combine them to compute the invariant mass of the parent particle. It then plots a histogram of these reconstructed masses across all events, identifies a peak on top of an exponentially decaying background, and extracts the mass and decay width of the unknown particle. Both quantities are drawn fresh from a probability distribution each run, so the model cannot succeed by guessing a memorized particle - it has to perform the full analysis to recover the values. The full real-world version of this analysis is extremely difficult; the task makes a few targeted simplifications that remove sub-problems unrelated to the core analytical chain (particle identification, vertex reconstruction, hit-level noise, shape of the background, ...) while preserving the analytical reasoning the task is designed to test.
+
+ - [`lissajous_figures`](https://github.com/otheiner/PARAMETR-Bench/blob/main/tasks/lissajous_figures/prompt.md): The model is placed in the role of a physicist performing quality assurance at a company manufacturing AC power supplies. The key analytical step is reading Lissajous figures (see the image bellow) - spatially complex plots produced by combining two oscillating signals - to determine the frequency of the power supply under test. The estimation requires counting the ratio of lobes touching the vertical and horizontal axes of the figure. This is a simple task for human visual inspection but deceptively difficult even for capable vision models, and remains non-trivial even with agentic tool use.
+
+ {% include gallery.html 
+  type="justified" 
+  images="/assets/images/PARAMETR-Bench/hubble.png > Visualisation of the solution of Hubble constant estimation.;
+          /assets/images/PARAMETR-Bench/invariant_mass.png > Mass spectrum that model has to reconstruct from the data and then fit the peak.;
+          /assets/images/PARAMETR-Bench/lissajous.png > Lissajous figure generated in one of the tasks.;
+      "%}
+
+Two minimal working examples follow. These tasks are simple and require no physics knowledge, so a potential contributor from a different field can examine the framework without having to understand the physics tasks. Both tasks have names prefixed with an underscore - by convention, tasks in PARAMETR-Bench whose names start with `_` are minimal working examples and are not included in the default benchmark evaluation, but they remain in the repository for demonstration and debugging. Even though both tasks are deliberately simple, they reveal interesting LLM failure modes. They're useful both as framework demonstrations and as small empirical probes of what current models still struggle with.
+
+  - [`_count_circles`](https://github.com/otheiner/PARAMETR-Bench/blob/main/tasks/_count_circles/prompt.md): The model receives several images of black circles on a white background and is asked to count the circles in each, then compute the average. With few circles per image, most vision models handle this easily; with many circles per image, even capable models start to miscount, making this a useful illustration of when agentic evaluation outperforms direct visual reasoning.
+  - [`_compute_average`](https://github.com/otheiner/PARAMETR-Bench/blob/main/tasks/_compute_average/prompt.md): The model is given a list of numbers and asked to compute their average. Trivially easy in principle, but less capable models sometimes hallucinate the result when the list is long or the numbers contain many decimal places.
+
 
 ## Results
 
