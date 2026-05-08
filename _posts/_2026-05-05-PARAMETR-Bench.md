@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'PARAMETR-Bench: Framework for Procedurally Generated Scientific Tasks with Auto-Populated Rubrics'
+title: 'PARAMETR-Bench: A Framework for Procedural Scientific Tasks with Auto-Populated Rubrics for Agentic LLM Evaluation'
 tags: AI
 image_preview: /assets/images/PARAMETR-Bench/preview.png
 image_heading: /assets/images/PARAMETR-Bench/heading.png
@@ -37,7 +37,7 @@ Traditional benchmarks rely on fixed test sets that are becoming contaminated or
 
 Procedural generation is a third approach that solves leakage by creating fresh instances every run. But it introduces a new problem. Tasks where the answer is a single number can be graded easily but more complex tasks, such as multi-step scientific analyses, that need detailed grading criteria (rubrics) are trickier. Keeping rubrics aligned with dynamically generated data is challenging.
 
-[PARAMETR-Bench](https://github.com/otheiner/PARAMETR-Bench/) addresses this. It combines a procedural task generator, a sandboxed environment for AI agents, and an evaluation harness with LLM-as-judge. Crucially, it uses the same generating process that creates the task data to also instantiate the rubrics. [**Metarubrics**](#metarubrics-and-rubrics) are a novel (and surprisingly simple) methodological concept I haven't seen elsewhere that mitigates contamination and prevents rubric drift by construction. The framework is not restricted to physics - physics is just where my expertise happens to lie - and the PARAMETR-Bench is a proof of concept that might grow in the future into other domains.
+[PARAMETR-Bench](https://github.com/otheiner/PARAMETR-Bench/) addresses this. It combines a procedural task generator, a sandboxed environment for AI agents, and an evaluation harness with LLM-as-judge. Crucially, it uses the same generating process that creates the task data to also instantiate the rubrics. [**Metarubrics**](#metarubrics-and-rubrics) are a novel (and surprisingly simple) methodological concept I haven't seen elsewhere that mitigates contamination and prevents rubric drift by construction. Note that the term differs from the educational assessment usage, where 'metarubric' refers to a rubric for evaluating other rubrics. The framework is not restricted to physics - physics is just where my expertise happens to lie - and the PARAMETR-Bench is a proof of concept that might grow in the future into other domains.
 
 ## How PARAMETR-Bench Works
 
@@ -173,7 +173,7 @@ If evaluation data from specific public seeds were to leak into a model's traini
 
 ### Metarubrics and Rubrics
 
-The user only needs to define the templates (metarubrics); the framework handles the rest. Metarubrics are analogous to classes in object-oriented programming, while rubrics are specific instances of those classes instantiated with unique parameters for a given task. Each metarubric belongs to one of several categories, which lets the resulting evaluation distinguish between different failure modes — for example, errors in scientific reasoning, errors in image handling, or errors in data manipulation. This grouping is used in other benchmarks, such as SciCode[^scicode].
+The user only needs to define the templates (metarubrics) and the framework handles the rest. Metarubrics are analogous to classes in object-oriented programming, while rubrics are specific instances of those classes instantiated with unique parameters for a given task. Each metarubric belongs to one of several categories, which lets the resulting evaluation distinguish between different failure modes — for example, errors in scientific reasoning, errors in image handling, or errors in data manipulation. This grouping approach is used in already estabilished benchmarks.
 
 The user provides a high-level template with placeholders.
 
@@ -224,31 +224,33 @@ The framework populates the template using the ground truth stored in pandas Dat
 
 ## Tasks Included in PARAMETR-Bench
 
-Currently, there are four proper tasks and two minimal working example tasks in the repository. Initial tasks I created for PARAMETR-Bench have a few common features:
+Tasks in the PARAMETR-Bench have a few common features:
 
-1. They are motivated by real science. Some of the tasks are inspired by the Nobel-prize level discoveries that revolutionized fields such as cosmology, or particle physics.
+1. They are motivated by real science. Some of the tasks are inspired by the Nobel-prize level discoveries that revolutionized fields such as cosmology, or particle physics (though framework is not restricted only to physics).
 2. Multi-step nature - tasks consist of multiple steps combining scientific reasoning, data exploration, python code implementation.
 3. Data used as an input are multimodal (images, tables, text files)
 4. Adversarial by nature and designed to challenge models in things I noticed to be difficult.
 
-### A Worked Example: Cepheid Period-Luminosity Calibration
+Currently, there are four complex physics tasks and two minimal working example tasks in the repository to demonstarte the framework on the simplest cases. These minimal working examples are by default not included when running the whole benchmark, unless user specifies them. Following paragraphs briefly describe tasks currently included in the framework. For more details, check [Hugging Face Space](https://huggingface.co/spaces/otheiner/PARAMETR-Bench_demo) or `tasks` folder in [GitHub repo](https://github.com/otheiner/PARAMETR-Bench/). 
 
-(TODO: This section is still being worked on)
+- [`cepheid_calibration`](https://github.com/otheiner/PARAMETR-Bench/blob/main/tasks/cepheid_calibration/prompt.md): This analysis focuses on the well-known relation between luminosity of Cepheids (type of variable stars) and their period, recreating (though not exactly) the discovery by Henrietta Swan Leavitt, whose foundational contribution to observational cosmology was never recognized with a Nobel Prize. The task requires combining Hubble's law, spectroscopic data of galaxies, and photometric data about Cepheid variables. Beyond basic concepts from astrophysics, it tests methods of physical data analysis such as template cross-correlation in log-λ space.
 
-### Other Tasks in the Framework
+ {% include gallery.html 
+  type="justified" 
+  images="/assets/images/PARAMETR-Bench/spectrum.png > Procedurally generated spectrum in the Cepheid calibration task;
+      "%}
 
-Apart from the `cepheid_calibration` task, there are three more complex physics tasks and two minimal working examples to demonstarte the framework on the simplest cases. These minimal working examples are by default not included when running the whole benchmark, unless user specifies them. Following paragraphs briefly describe tasks currently included in the framework. For more details, check [Hugging Face Space](https://huggingface.co/spaces/otheiner/PARAMETR-Bench_demo) or `tasks` folder in [GitHub repo](https://github.com/otheiner/PARAMETR-Bench/).
-
- - [`hubble_constant`](https://github.com/otheiner/PARAMETR-Bench/blob/main/tasks/hubble_constant/prompt.md): A data-analysis task inspired by Edwin Hubble's original work, one of the foundational results of observational cosmology. The model analyzes spectroscopic data to identify redshifts of fictitious galaxies, then combines this with Cepheid photometric data for distance calibration, and uses the result to estimate the local rate of cosmic expansion - the Hubble constant. It's effectively the inverse of the Cepheid calibration task, with a different spectral representation. The Hubble constant value is drawn fresh each run from a distribution whose mean is offset from current measurements, preventing the model from guessing a memorized value and forcing it to actually perform the analysis.
 
  - [`invariant_mass_reconstruction`](https://github.com/otheiner/PARAMETR-Bench/blob/main/tasks/invariant_mass_reconstruction/prompt.md): A simplified version of an analysis performed by particle physicists at accelerators like the Large Hadron Collider at CERN. The model receives a description of the detector geometry and the simulated detector data - simplified readouts from a silicon tracker and an electromagnetic calorimeter. The data contain events in which an unknown particle decays into an electron-positron pair. For each event, the model must reconstruct the tracks of both particles (fitting a helix to the tracker hits) and combine them to compute the invariant mass of the parent particle. It then plots a histogram of these reconstructed masses across all events, identifies a peak on top of an exponentially decaying background, and extracts the mass and decay width of the unknown particle. Both quantities are drawn fresh from a probability distribution each run, so the model cannot succeed by guessing a memorized particle - it has to perform the full analysis to recover the values. The full real-world version of this analysis is extremely difficult; the task makes a few targeted simplifications that remove sub-problems unrelated to the core analytical chain (particle identification, vertex reconstruction, hit-level noise, shape of the background, ...) while preserving the analytical reasoning the task is designed to test.
+
+ - [`hubble_constant`](https://github.com/otheiner/PARAMETR-Bench/blob/main/tasks/hubble_constant/prompt.md): A data-analysis task inspired by Edwin Hubble's original work, one of the foundational results of observational cosmology. The model analyzes spectroscopic data to identify redshifts of fictitious galaxies, then combines this with Cepheid photometric data for distance calibration, and uses the result to estimate the local rate of cosmic expansion - the Hubble constant. It's effectively the inverse of the Cepheid calibration task, with a different spectral representation. The Hubble constant value is drawn fresh each run from a distribution whose mean is offset from current measurements, preventing the model from guessing a memorized value and forcing it to actually perform the analysis.
 
  - [`lissajous_figures`](https://github.com/otheiner/PARAMETR-Bench/blob/main/tasks/lissajous_figures/prompt.md): The model is placed in the role of a physicist performing quality assurance at a company manufacturing AC power supplies. The key analytical step is reading Lissajous figures (see the image bellow) - spatially complex plots produced by combining two oscillating signals - to determine the frequency of the power supply under test. The estimation requires counting the ratio of lobes touching the vertical and horizontal axes of the figure. This is a simple task for human visual inspection but deceptively difficult even for capable vision models, and remains non-trivial even with agentic tool use.
 
  {% include gallery.html 
   type="justified" 
-  images="/assets/images/PARAMETR-Bench/hubble.png > Visualisation of the solution of Hubble constant estimation.;
-          /assets/images/PARAMETR-Bench/invariant_mass.png > Mass spectrum that model has to reconstruct from the data and then fit the peak.;
+  images="/assets/images/PARAMETR-Bench/invariant_mass.png > Mass spectrum that model has to reconstruct from the data and then fit the peak in the invariant mass reconstruction task.;
+          /assets/images/PARAMETR-Bench/hubble.png > Visualisation of the solution of the Hubble constant estimation.;
           /assets/images/PARAMETR-Bench/lissajous.png > Lissajous figure generated in one of the tasks. Here the ratio of lobes is 3:5.;
       "%}
 
