@@ -35,7 +35,7 @@ For the first few days, I had a battle plan. Since I was following the Rhône ri
 			/assets/images/ProjectEclipse/0040.jpg > Watch out - mushroom people!;
 			/assets/images/ProjectEclipse/0042.jpg > The Rhône valley is full of castles, caste ruins and old swing bridges.;
 			/assets/images/ProjectEclipse/0045.jpg > One of many swing bridges on the Rhône river.;
-			/assets/images/ProjectEclipse/0053.jpg >  ;
+			/assets/images/ProjectEclipse/0053.jpg >   ;
 			/assets/images/ProjectEclipse/0066.jpg > Limestone clifs close to Donzère.;
 			/assets/images/ProjectEclipse/0022.jpg > I was trying to match swag of some cool guys I met on the way.;
 			/assets/images/ProjectEclipse/0079.jpg > Avignon and its famous half-bridge.;
