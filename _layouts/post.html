@@ -57,8 +57,11 @@ layout: base
           </a>
         {% endfor %}
       {%- endif -%}
-
     </div>
+
+    {% if page.audio %}
+      {% include audio.html src=page.audio variant="listen--tiny listen--center" %}
+    {% endif %}
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">

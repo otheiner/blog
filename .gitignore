@@ -22,3 +22,6 @@ ehthumbs.db
 Thumbs.db
 
 ./test_locally.sh
+
+# Environmental variables with API keys
+.env

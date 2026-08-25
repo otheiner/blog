@@ -314,3 +314,103 @@ p > img + em {
 .intro-note p:last-child {
   margin-bottom: 0;
 }
+
+/************* Audio player *******************/
+/* Article narration player - compact.
+
+   The label and the controls sit on one row instead of stacked, and the whole
+   block is capped in width so it doesn't stretch across a wide column.
+
+   Native <audio> controls can't be restyled consistently across browsers, so
+   this styles the frame and leaves the controls alone. They're also keyboard
+   accessible and get OS media keys for free.
+
+   Note: below roughly 250px wide, Chrome starts dropping the scrubber from
+   native controls. That's why the player has a min-width and wraps to its own
+   line on narrow screens rather than being squeezed. */
+
+.listen {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.9rem;
+
+  max-width: 30rem;          /* the main size lever - lower it if still too wide */
+  margin: 1.5rem 0;
+  padding: 0.45rem 0.7rem;
+
+  border: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+  border-radius: 6px;
+  background: color-mix(in srgb, currentColor 3%, transparent);
+}
+
+.listen__label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  margin: 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.listen__note {
+  font-size: 0.68rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  opacity: 0.55;
+}
+
+.listen__player {
+  flex: 1 1 260px;
+  min-width: 260px;
+  height: 34px;
+}
+
+.post-header .listen {
+  margin: 0.6rem auto 0;
+}
+
+/* --- variants -------------------------------------------------------------
+   Add the class to the <figure> in _includes/audio.html to switch. */
+
+/* No box at all - just a label and the controls. */
+.listen--bare {
+  max-width: 26rem;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+/* Smallest sensible: label on its own line, controls at reduced width. */
+.listen--tiny {
+  max-width: 22rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  gap: 0.15rem;
+}
+
+.listen--tiny .listen__label {
+  flex-direction: row;
+  align-items: baseline;
+  gap: 0.4rem;
+  font-size: 0.78rem;
+  flex-basis: 100%;
+}
+
+.listen--tiny .listen__player {
+  height: 30px;
+  min-width: 220px;
+}
+
+/* Older browsers without color-mix still get a sensible box. */
+@supports not (background: color-mix(in srgb, currentColor 3%, transparent)) {
+  .listen {
+    border-color: rgba(128, 128, 128, 0.3);
+    background: rgba(128, 128, 128, 0.05);
+  }
+}
+/**********************************/

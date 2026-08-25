@@ -1,0 +1,27 @@
+{%- comment -%}
+Audio player for article narration.
+
+  {% include audio.html src="/audio/eclipse.mp3" %}
+  {% include audio.html src="/audio/eclipse.mp3" label="Listen to this post" %}
+  {% include audio.html src="/audio/eclipse.mp3" note=false %}
+
+Parameters:
+  src    required. Path to the MP3, relative to the site root.
+  label  optional. Heading text. Defaults to "Listen to this article".
+  note   optional. Set to false to hide the AI-narration line.
+{%- endcomment -%}
+
+<figure class="listen listen--tiny listen--center">
+  <figcaption class="listen__label">
+    {{ include.label | default: "Listen" }}
+    {%- unless include.note == false %}
+    <span class="listen__note">AI-generated narration</span>
+    {%- endunless %}
+  </figcaption>
+
+  <audio class="listen__player" controls preload="none"
+         src="{{ include.src | relative_url }}">
+    Your browser doesn't support audio playback.
+    <a href="{{ include.src | relative_url }}">Download the MP3</a> instead.
+  </audio>
+</figure>
