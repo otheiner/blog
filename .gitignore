@@ -25,3 +25,6 @@ Thumbs.db
 
 # Environmental variables with API keys
 .env
+
+# Audio weights
+script/kokoro.onnx

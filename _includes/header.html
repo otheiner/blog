@@ -20,6 +20,7 @@
         <!-- 3. menu that should be shown/hidden -->
         <div class="nav-menu">
           {% include nav-items.html paths = page_paths %}
+          <a class="nav-item rss-link" href="{{ '/feed.xml' | relative_url }}" title="RSS Feed"><img src="{{ '/assets/images/rss.png' | relative_url }}" alt="RSS Feed" height="16" width="16"></a>
         </div>
       </nav>
     {%- endunless %}
