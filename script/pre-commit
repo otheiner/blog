@@ -1,0 +1,10 @@
+#!/bin/sh
+# Pre-commit hook to auto-generate Jekyll tag pages
+
+echo "Generating tag pages..."
+ruby generate_tags.rb
+
+# Add generated files to the commit automatically
+git add tags/
+
+echo "Tag pages generated and added to commit."
