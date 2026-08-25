@@ -1,0 +1,92 @@
+# Build on every push, publish only when you say so.
+#
+# Two changes from the stock GitHub Pages workflow:
+#
+#   1. Builds with `bundle exec jekyll build` instead of
+#      actions/jekyll-build-pages, because that action runs Jekyll in safe
+#      mode and silently ignores _plugins/ - which would break feed.xml's
+#      audio_file_size filter.
+#
+#   2. The deploy job only runs on workflow_dispatch. Pushing to main builds
+#      the site and checks it compiles, but publishes nothing - so a
+#      half-finished post can't reach the live feed.xml and notify RSS
+#      subscribers before you're ready.
+#
+# To publish: Actions tab -> this workflow -> "Run workflow".
+
+name: Build and deploy
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run
+# in-progress and latest queued. Do NOT cancel in-progress runs, so production
+# deployments always complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          # Reads .ruby-version or your Gemfile; bundler-cache speeds up reruns.
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with Jekyll
+        # Full Jekyll, not safe mode, so _plugins/audio_enclosure.rb loads.
+        # baseurl comes from configure-pages so it's right for both a user
+        # site and a project site.
+        run: bundle exec jekyll build --destination ./_site
+        env:
+          JEKYLL_ENV: production
+          PAGES_REPO_NWO: ${{ github.repository }}
+
+      - name: Check the feed built correctly
+        # Cheap guard: if the plugin didn't load, length="0" or the filter
+        # errors out. Fail loudly here rather than shipping a broken feed.
+        run: |
+          if [ ! -f ./_site/feed.xml ]; then
+            echo "::error::_site/feed.xml missing - did feed.xml build?"
+            exit 1
+          fi
+          if grep -q 'audio_file_size' ./_site/feed.xml; then
+            echo "::error::Liquid filter left unrendered - _plugins did not load."
+            exit 1
+          fi
+          echo "feed.xml built."
+          grep -o '<enclosure[^>]*>' ./_site/feed.xml || echo "(no audio enclosures yet)"
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    # The gate: pushes build but never publish. Only a manual run deploys.
+    if: github.event_name == 'workflow_dispatch'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
