@@ -27,12 +27,6 @@ For the first few days, I had a battle plan. Since I was following the Rhône ri
 
 What didn't go so well was that short after Geneva, I rode my road bike on a gravel path and my fron wheel got some bigger hit which forced me to adjus tension in the spokes of my fron wheel. But when I looked at the rim up close, I spotted a bigger problem! The wall of my rim was really worn out, which I missed previously. The rim wasn't flat anymore, but its surface was brushed inwards and that was a bit alarming. Following the Rhône river on flats was fine, but I knew that I need to buy a new wheel before I get to Pyrenees. For now, I could continue and hope that the rim will hold.
 
-The Rhône valley was beautiful. I followed Via Rhôna cycling path for the most of the way from Geneva all the way to the sea. I just skipped signifficant part of it when the river goes to Lyon, because I wanted to go directly to the sea, and I connected this big cycling path again in Valence. I was surprised how big the river gets after Geneva. There were many swing bridges over the river, and beautiful castles. I also passed through Avignon where I saw the famous bridge that finishes in the middle of the river - not very useful bridge!
-
-After Avignon I continued to Beaucaire, where I saw something scary. I was second person to come to the car accident - the car was crahed into the tree next to the road, smoke was going out, airbags were out as well and I could see an elbow of a driver who was still in the car. The smoking car close to the trees during the temperatures getting above 37°C and everything very dry was terrifying. Luckily, the man who arrived just about a minute before me was already calling for help and short after that, very confused and shaken driver got out of the car. Then another car stopped and when I saw that the driver is "fine", the help is coming and I can't help more, I continued on my way. It was a moment that reminded me to be careful on the road all the time.
-
-The heat started to be really unbearable and I got to Canal du Rhône a Sète – a long water canal for boats which connects the Étang de Thau in Sète to the Rhône River in Beaucaire. Cycling along the canal meant being exposed to the sun all the time and following nearly infinite stretches of the cycling path. It was mentally a bit challenging but worth it. In the evening, I finally reached the shore of the Mediterranean sea and after 3 days and 500 kilometers, I could celebrabrate first milestone by the evening dip in the sea.
-
 {% include gallery.html 
 	type="justified" 
 	images="/assets/images/ProjectEclipse/0002.jpg > There were many sunflower fields along the way.;
@@ -43,7 +37,17 @@ The heat started to be really unbearable and I got to Canal du Rhône a Sète �
 			/assets/images/ProjectEclipse/0038.jpg > The nuclear power plant Cruas-Meysse south from Valence.;
 			/assets/images/ProjectEclipse/0040.jpg > Watch out - mushroom people!;
 			/assets/images/ProjectEclipse/0042.jpg > The Rhône valley is full of castles, caste ruins and old swing bridges.;
-			/assets/images/ProjectEclipse/0045.jpg > One of many swing bridges on the Rhône river.;
+			"%}
+
+The Rhône valley was beautiful. I followed Via Rhôna cycling path for the most of the way from Geneva all the way to the sea. I just skipped signifficant part of it when the river goes to Lyon, because I wanted to go directly to the sea, and I connected this big cycling path again in Valence. I was surprised how big the river gets after Geneva. There were many swing bridges over the river, and beautiful castles. I also passed through Avignon where I saw the famous bridge that finishes in the middle of the river - not very useful bridge!
+
+After Avignon I continued to Beaucaire, where I saw something scary. I was second person to come to the car accident - the car was crahed into the tree next to the road, smoke was going out, airbags were out as well and I could see an elbow of a driver who was still in the car. The smoking car close to the trees during the temperatures getting above 37°C and everything very dry was terrifying. Luckily, the man who arrived just about a minute before me was already calling for help and short after that, very confused and shaken driver got out of the car. Then another car stopped and when I saw that the driver is "fine", the help is coming and I can't help more, I continued on my way. It was a moment that reminded me to be careful on the road all the time.
+
+The heat started to be really unbearable and I got to Canal du Rhône a Sète – a long water canal for boats which connects the Étang de Thau in Sète to the Rhône River in Beaucaire. Cycling along the canal meant being exposed to the sun all the time and following nearly infinite stretches of the cycling path. It was mentally a bit challenging but worth it. In the evening, I finally reached the shore of the Mediterranean sea and after 3 days and 500 kilometers, I could celebrabrate first milestone by the evening dip in the sea.
+
+{% include gallery.html 
+	type="justified" 
+	images="/assets/images/ProjectEclipse/0045.jpg > One of many swing bridges on the Rhône river.;
 			/assets/images/ProjectEclipse/0053.jpg >   ;
 			/assets/images/ProjectEclipse/0066.jpg > Limestone clifs close to Donzère.;
 			/assets/images/ProjectEclipse/0022.jpg > As a heat fighting strategy, I was trying to be as cool as this guy.;
