@@ -60,6 +60,8 @@ After Avignon I got to Canal du Rhône a Sète, which is a long water canal for 
 
 ### The Eclipse
 
+.....
+
 ### Along the Catalan Coast back to France 
 
 **Final stats:**
