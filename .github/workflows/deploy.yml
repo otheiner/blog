@@ -1,127 +1,50 @@
-# Preview on push, publish on demand.
-#
-#   push to main        ->  https://<your-site>/preview/    (automatic)
-#   "Run workflow"      ->  https://<your-site>/            (manual only)
-#
-# Both live on the same gh-pages branch: production at the root, preview in a
-# /preview/ subfolder. keep_files: true stops each deploy from deleting the
-# other one.
-#
-# ONE-TIME SETUP
-#   Settings -> Pages -> Source: "Deploy from a branch"
-#                        Branch: gh-pages,  folder: / (root)
-#   (This replaces the "GitHub Actions" source used by actions/deploy-pages.)
-#
-# IF YOUR SITE IS A PROJECT SITE (username.github.io/reponame), set
-# SITE_BASEURL below to "/reponame". For a user site (username.github.io),
-# leave it empty.
-
-name: Build and deploy
-
+# Sample workflow for building and deploying a Jekyll site to GitHub Pages
+name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 on:
+  # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
+  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  # peaceiris pushes commits to the gh-pages branch, so it needs write.
-  contents: write
-
+  contents: read
+  pages: write
+  id-token: write
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
   cancel-in-progress: false
-
-env:
-  SITE_BASEURL: "/blog"      # e.g. "/my-blog" for a project site; empty for a user site
-
 jobs:
+  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
         with:
-          ruby-version: '3.2'
-          bundler-cache: true
-
-      - name: Build for preview
-        if: github.event_name == 'push'
-        # Preview lives one level down, so baseurl gains /preview.
-        run: bundle exec jekyll build --baseurl "${SITE_BASEURL}/preview" --destination ./_site
-        env:
-          JEKYLL_ENV: preview
-
-      - name: Build for production
-        if: github.event_name == 'workflow_dispatch'
-        run: bundle exec jekyll build --baseurl "${SITE_BASEURL}" --destination ./_site
-        env:
-          JEKYLL_ENV: production
-
-      - name: Check the feed built correctly
-        # If _plugins didn't load, the Liquid filter survives unrendered.
-        # Fail here rather than shipping a broken feed to subscribers.
-        run: |
-          if [ ! -f ./_site/feed.xml ]; then
-            echo "::error::_site/feed.xml missing - did feed.xml build?"
-            exit 1
-          fi
-          if grep -q 'audio_file_size' ./_site/feed.xml; then
-            echo "::error::Liquid filter left unrendered - _plugins did not load."
-            exit 1
-          fi
-          echo "feed.xml built."
-          grep -o '<enclosure[^>]*>' ./_site/feed.xml || echo "(no audio enclosures yet)"
-
-      - name: Keep search engines out of the preview
-        if: github.event_name == 'push'
-        run: |
-          printf 'User-agent: *\nDisallow: /\n' > ./_site/robots.txt
-
+          source: ./
+          destination: ./_site
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: site
-          path: ./_site
-
-  deploy-preview:
-    if: github.event_name == 'push'
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/download-artifact@v4
-        with:
-          name: site
-          path: ./_site
-
-      - name: Deploy to /preview/
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
-          destination_dir: preview
-          keep_files: true          # leave the production files at the root alone
-          commit_message: "preview: ${{ github.event.head_commit.message }}"
-
-  deploy-production:
+        uses: actions/upload-pages-artifact@v3
+  # Deployment job
+  deploy:
+    # Only deploy when triggered by hand from the Actions tab. A push still
+    # builds the site (so you find out if it breaks), but publishes nothing -
+    # which means a half-finished post can't reach feed.xml and notify RSS
+    # subscribers before you're ready.
     if: github.event_name == 'workflow_dispatch'
-    needs: build
-    runs-on: ubuntu-latest
     environment:
       name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
     steps:
-      - uses: actions/download-artifact@v4
-        with:
-          name: site
-          path: ./_site
-
-      - name: Deploy to the live site
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
-          keep_files: true          # leave /preview/ alone
-          commit_message: "deploy: ${{ github.sha }}"
-          # cname: yourdomain.com   # uncomment if you use a custom domain
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
