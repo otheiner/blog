@@ -172,8 +172,32 @@ Now the plan was not to look too much like a homless while relaxing on the beach
 
 ### The Eclipse
 
+The big day has come and my plan was to cycle about 45 minutes to Peñíscola where I was meeting my friend Laura together with her friends and we were planning to watch the eclipse together. I arrived there quite early in the morning and I could enjoy nice sandy beach under the ancient fortress. The fortress used to be a blace where antipope Papa Luna (Benedict XIII) lived during the period of Western Schism. Lated during the day the beach got completely crowded and heat was unbearable, so I was waiting for my friends to arrive.
+
+Our original plan was going up the hill above the town, but we decided to abandon the plan because the heat wouldn't make this enjoyable and we found a spot with a great view of the wester horizon where the eclipse was about to happen[^3]. The dirt road, trash on the ground and and hotels full of tourists behind our back was not so pretty, but we needed only the view of the horizon, which was actually great. And we were definitely not the only ones who came there for the show. 
+
+We were only nervous because a huge cloud was rolling in and it wasn't sure if we will even see the sun.
+
+The eclipse officiall started and the sun was still behind the cloud. There was only a small opening above the horizon and we were really hoping that the opening will be still there when the total solar eclipse starts. And it was!
+
+The moment of totality, when the solar disd is completely hidden by the Moon was something really weird, but amazing at the same time. Minutes befor it started, burds started chirping like crazy and when the moment of the total solar eclips arrived, they stopped and there was this weird "fiery" thing hovering above the horizon. We could clearly see the solar corona and even a huge protuberance visible by naked eye. The view was something really special and we were staring at it with awe. I have to say that I expected it to be much darker, but the landscape looked like some time after the sunset when there is still a bit of light. The moment lasted slightly less than two minutes and it was over. The sun was getting close to the horizon and we could see very special view of crescent-shaped sun, still partly hidden by the moon, setting behind the horizon. The eclipse was true icing on the cake and I was extremely happy that everything worked out and I managed to get here all the way from Geneva by bike.
+
+Then we went for the night swim in the sea and we even saw some Perseids because that night was also peak of the Perseid meteor shower. What a day!
+
+{% include gallery.html 
+	type="justified" 
+	images="/assets/images/ProjectEclipse/0350.jpg > Morning swim in Peñíscol at beaches getting full of tourists.;
+			/assets/images/ProjectEclipse/0355.jpg > That's how our observation place looked like. I agree, there are prettier spots.;
+			/assets/images/ProjectEclipse/0358.jpg > The eclipse already started and the cloud formed only a small opening above the horizon.;
+			/assets/images/ProjectEclipse/0361.jpg > It's happening! The sun was too bright, but you can see some reflection of the 'cut-out sun' on the lens of my phone camera.;
+			/assets/images/ProjectEclipse/0362.jpg > Eclipse SWAG!;
+			/assets/images/ProjectEclipse/0360.jpg > Sun captures through the filter of solar glasses on my phone camera.;
+			/assets/images/ProjectEclipse/0365.jpg > This was the moment! It looked so surreal and we could see details in solar corona which my phone didn't manage to capture.;
+			/assets/images/ProjectEclipse/0368.jpg > The end of the show.;
+			"%}
 
 
+[^3]: The total eclipse was happening during the sunset only four degrees above horizon.
 
 ### Along the Catalan Coast Back to France 
 
