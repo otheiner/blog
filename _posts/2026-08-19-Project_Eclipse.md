@@ -2,7 +2,7 @@
 layout: post
 title: 'Project Eclipse: How I Chased the Total Solar Eclipse by Bike'
 tags: bikepacking
-image_preview: /assets/images/ProjectEclipse/0364.jpg
+image_preview: /assets/images/ProjectEclipse/0362.jpg
 image_heading: /assets/images/ProjectEclipse/0274.jpg
 audio: /assets/audio/2026-08-19-Project_Eclipse.mp3
 ---
