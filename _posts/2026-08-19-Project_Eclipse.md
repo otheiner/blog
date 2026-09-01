@@ -1,31 +1,31 @@
 ---
 layout: post
-title: 'Project Eclipse: How I Chased the Total Solar Eclipse by Bike'
+title: 'Project Eclipse: The Hard Way to a Solar Eclipse'
 tags: bikepacking
 image_preview: /assets/images/ProjectEclipse/0362.jpg
 image_heading: /assets/images/ProjectEclipse/0274.jpg
 audio: /assets/audio/2026-08-19-Project_Eclipse.mp3
 ---
 
-When I first heard that there is going to be a total solar eclipse in Spain on August 12, 2026, I didn't think I'd go there. The idea of taking the plane only to see the eclipse wasn't so tempting to me. True, seeing the it would be cool, but I also thought that I might have more chances in my life, so I forgot about it. But in June, I heard about the eclipse in Spain again. I was working at that moment, but I got an ingenous idea: What if I went to see the solar eclipse to Spain in the end, but not like most of the people - what if I went there by bike? 
+Most people fly to see a total solar eclipse. I decided to cycle nearly 1,800 km through three countries for less than two minutes of darkness. When I first heard about the eclipse crossing Spain on August 12, 2026, I honestly wasn't planning to go. Taking a flight just to look up for a few minutes didn't feel worth it. But in June, working my usual remote job, I got an idea that seemed brilliant and slightly insane at the same time: what if I biked there instead?
 
-True, it wasn't the easiest way of getting to Spain but it was definitely the fun one. It seemed big but when I thought about it for few seconds, I had no real reasons for not trying that. My current remote job gives me a lot of flexibility, so I decided to take the opportunity and do it just because I can. I checked the map, picked the place on the coast of Mediterranean sea that was in the middle of the belt of totality[^1] - this happend to be in Peñíscola –  and decided what places might be cool to visit along the way. The idea was born and the approximate plan of my route looked like this:
+True, it wasn't the easiest way of getting to Spain, but it was definitely the fun one. It seemed like a big undertaking, but when I thought about it for a few seconds, I had no real reasons for not trying it. My current remote job gives me a lot of flexibility, so I decided to take the opportunity and do it just because I can. I checked the map, picked a place on the coast of the Mediterranean Sea that was in the middle of the belt of totality[^1] - this happened to be Peñíscola — and decided what places might be cool to visit along the way. And so the idea was born, and the approximate plan of my route looked like this:
 
 <div style="text-align: center;">
 	<iframe style="border:none" src="https://mapy.com/s/cajugavuge" width="700" height="466" frameborder="0"></iframe>
 </div>
 
-I wanted to start from Geneva, cycle through Andorra to Peñíscola, see the total solar eclips and then continue north along the coast until France where I would finish cycling and took a train back to Geneva. My plan was to sleep mostly outdoors and I tried to pack as minimalistically as possible. The heatwaves in Europe were my biggest worry but they also allowed me to leave most of clothes at home and the majority of my bike bag was occupied by the sleeping bag, sleeping mat and the tarp.
+My plan was to start from Geneva, cycle through Andorra to Peñíscola, see the total solar eclipse, and then continue north along the coast into France, where I would finish cycling and take a train back to Geneva. I planned to sleep mostly outdoors and pack as minimalistically as possible. The heatwaves in Europe were my biggest worry, but they also meant I could leave most of my clothes at home, so the majority of my bike bag was occupied by my sleeping bag, sleeping mat, and tarp.
 
-[^1]: The belt of totality is geographic track on Earth's surface where the Moon completely blocks the Sun and where the total solar eclipse can be observed.
+[^1]: The belt of totality is a geographic track on Earth's surface where the Moon completely blocks the Sun and where the total solar eclipse can be observed.
 
-### Cycling to the Mediterranean
+### Melting Under the Rhône Sun
 
-I started from Geneva 12 days before the date of the eclipse and I had to cover about 1250 km if I wanted to be there for the show on time. The first kilometers were through the known terrain but I quickly started to feel what was my biggest worry on this journey - the heat! The date of the solar eclipse was given, but the weather decided that it would be also great to have heat waves in Europe occasionaly spiced up by some forest fires, and so I had to accept it and be ready to fight the heat.
+I started from Geneva 12 days before the eclipse, with about 1,250 km to cover if I wanted to make it in time. The first few kilometers ran through familiar terrain, but I quickly ran into what would become my biggest enemy on this trip: the heat. As if the date of the eclipse wasn't fixed enough of a challenge, Europe decided to throw in a heatwave too, occasionally seasoned with a wildfire. I had no choice but to accept it and get ready to fight.
 
-For the first few days, I had a battle plan. Since I was following the Rhône river, I was often stopping for the water cooling breaks in the river. Sometimes I went in clothes because it was faster and also because wet jersey was cooling me down. This part of the plan went well.
+For the first few days, I had a battle plan: since I was following the Rhône, I stopped often for cooling breaks in the river — sometimes fully clothed, since a wet jersey doubled as air conditioning. That part of the plan worked.
 
-What didn't go so well was that short after Geneva, I rode my road bike on a gravel path and my fron wheel got some bigger hit which forced me to adjus tension in the spokes of my fron wheel. But when I looked at the rim up close, I spotted a bigger problem! The wall of my rim was really worn out, which I missed previously. The rim wasn't flat anymore, but its surface was brushed inwards and that was a bit alarming. Following the Rhône river on flats was fine, but I knew that I need to buy a new wheel before I get to Pyrenees. For now, I could continue and hope that the rim will hold.
+What didn't work was my front wheel. Shortly after Geneva, a hard hit on a gravel path knocked its spokes out of tension. When I looked closer, I found a real problem: the rim wall was badly worn, its surface curved inward instead of flat. Following the Rhône river on flats was fine, but not great news with the Pyrenees still ahead. I decided to keep riding and hope it would hold until I could get a replacement.
 
 {% include gallery.html 
 	type="justified" 
@@ -39,30 +39,29 @@ What didn't go so well was that short after Geneva, I rode my road bike on a gra
 			/assets/images/ProjectEclipse/0042.jpg > The Rhône valley is full of castles, caste ruins and old swing bridges.;
 			"%}
 
-The Rhône valley was beautiful. I followed Via Rhôna cycling path for the most of the way from Geneva all the way to the sea. I just skipped signifficant part of it when the river goes to Lyon, because I wanted to go directly to the sea, and I connected this big cycling path again in Valence. I was surprised how big the river gets after Geneva. There were many swing bridges over the river, and beautiful castles. I also passed through Avignon where I saw the famous bridge that finishes in the middle of the river - not very useful bridge!
+The Rhône valley was beautiful. I followed the Via Rhôna cycling path for most of the way from Geneva to the sea, skipping the stretch through Lyon to head straight for the coast, and rejoining the route in Valence. The river grows fast after Geneva — I passed swing bridge after swing bridge, and plenty of castles along the way. In Avignon, I saw the city's famous bridge, the one that stops abruptly in the middle of the river. Not the most useful bridge ever built.
 
-After Avignon I continued to Beaucaire, where I saw something scary. I was second person to come to the car accident - the car was crahed into the tree next to the road, smoke was going out, airbags were out as well and I could see an elbow of a driver who was still in the car. The smoking car close to the trees during the temperatures getting above 37°C and everything very dry was terrifying. Luckily, the man who arrived just about a minute before me was already calling for help and short after that, very confused and shaken driver got out of the car. Then another car stopped and when I saw that the driver is "fine", the help is coming and I can't help more, I continued on my way. It was a moment that reminded me to be careful on the road all the time.
+After Avignon, in Beaucaire, I saw something that shook me. I was the second person to reach a car crash: the vehicle smashed into a tree, smoke pouring out, airbags deployed, a driver's elbow still visible inside. With temperatures above 37°C and everything around it bone-dry, the smoking car felt like a disaster waiting to happen. Luckily, someone had arrived just before me and was already calling for help. Moments later, the shaken driver climbed out, confused but alive. Once another car stopped and I saw help was on the way, I got back on the road — there was nothing more I could do. It was a sharp reminder to stay alert out there.
 
-The heat started to be really unbearable and I got to Canal du Rhône a Sète – a long water canal for boats which connects the Étang de Thau in Sète to the Rhône River in Beaucaire. Cycling along the canal meant being exposed to the sun all the time and following nearly infinite stretches of the cycling path. It was mentally a bit challenging but worth it. In the evening, I finally reached the Le Grau-du-Roi at the shore of Mediterranean sea and after 3 days and 500 kilometers, I could celebrabrate first milestone by the evening dip in the sea.
+By the time I reached Canal du Rhône à Sète — a boat canal connecting the Étang de Thau to the Rhône — the heat had become brutal. Cycling along it meant full sun exposure for what felt like an endless, straight stretch of path. Mentally, it wore me down, but it was worth it: that evening, I reached Le Grau-du-Roi on the Mediterranean coast. Three days, 500 kilometers, and one very well-earned evening swim in the sea to celebrate.
 
 {% include gallery.html 
 	type="justified" 
 	images="/assets/images/ProjectEclipse/0045.jpg > One of many swing bridges on the Rhône river.;
-			/assets/images/ProjectEclipse/0053.jpg >   ;
+			/assets/images/ProjectEclipse/0053.jpg > More sunflowers. ;
 			/assets/images/ProjectEclipse/0066.jpg > Limestone clifs close to Donzère.;
 			/assets/images/ProjectEclipse/0022.jpg > As a heat fighting strategy, I was trying to be as cool as this guy.;
 			/assets/images/ProjectEclipse/0079.jpg > Avignon and its famous half-bridge.;
 			/assets/images/ProjectEclipse/0104.jpg > I saw gaots chilling next to Canal du Rhône a Sète.;
 			"%}
 
-### Flamingos, Turtle Rescue and Infinite Water Canals
+### Flamingos, a Tricycle Burial, and One Very Confused Turtle
 
-The night following reaching the Mediterranean wasn't good. It was extremely hot, humid and mosquitoes everywhere, so I didn't sleep really well and I woke up early to avoid being discovered by passeresby. The good thing about waking up with the sunrise was that I could go to the beach which I had almost only for myself. I took a breakfast and started the day by another dip in the sea.
+The night after reaching the Mediterranean wasn't a good one. It was hot, humid, and full of mosquitoes, so I barely slept and woke up early to avoid being spotted by passersby. The upside of an early start was having the beach almost entirely to myself. I grabbed breakfast and began the day with another dip in the sea.
 
-I continued my way and cycled along Étangs[^2] close to Montpelier where I saw many flamingos. I had no ideas they lived there! Around the lunch time it started to be extremely hot and I was happy to pass by big air contitioned supermarket. I bought some food and made a quick break. But as I was eating my lunch, I saw multiple people who seemed to be also doing some adventures. My eyes attracted backpack of one girl who was sitting with another man in front of the supermarket. It was Hyperlite - the same brand of the backpack I had while I was [hiking across New Zealand]({{ '/TA_the_idea' | relative_url }}). It is kind of a backpack that is almost like an identifying mark of people doing some big adventures. So I asked her what is she doing and turned out that she was hiking Hexatrek (3000 kilometers through hike in French mountains) but she skipped less interesting part and she was currently "side-questing" – cycling from Avignon to Perpignan. Her name was Viola. 
+I continued my way and cycled along Étangs[^2] near Montpellier, where I spotted flamingos. I had no idea they even lived there! Around lunchtime, the heat turned brutal, so I was relieved to duck into an air-conditioned supermarket for food and a break. While eating, I noticed a few people nearby who looked like they were on adventures of their own. One girl's backpack caught my eye: Hyperlite, the same brand I'd carried while hiking across New Zealand. It's practically a badge of honor among people doing big trips. I asked what she was up to, and it turned out she was hiking the Hexatrek (a 3,000 km trail through the French mountains), though she'd skipped the less interesting sections and was currently "side-questing" by cycling from Avignon to Perpignan. Her name was Viola.
 
-
-Shane, the guy who was sitting there with Viola was also interesting. He was cycling on a crazy tricycle bike from Netherlands to Peñíscola to see the solar eclipse (like me, just following the coast) and then later to Málaga. His mission was extremely interesting. Not only he went to see the solar eclipse, but he also went to Málaga to do an Earth sandwich with some people from Auckland. The Earth sandwich is somethink like regular sandwich (toast bread – ham – toast bread), but you replace ham by the Earth. On Earth, there are thes places called antipodes, which are points on completely opposite side of the globe. The Earth sandwich is created when people at antipodes at the same time place the slice of the toast bread on the ground. At that moment, the Earth becomes part of the huge sandwich. And to top this off, he didn't want to transport his old trycicle back to Netherlands, so he was determined to burry it at his final destination.
+The guy sitting with her, Shane, turned out to be even more interesting. He was riding a wild-looking tricycle from the Netherlands to Peñíscola to catch the eclipse, just like me, before continuing on to Málaga. And Málaga wasn't just a destination. He was headed there to complete an Earth sandwich with a group in Auckland. An Earth sandwich works like a normal one (bread, filling, bread), except the filling is the entire planet. Find two points on Earth that are exact opposites (antipodes), get someone to lay a slice of bread on the ground at each spot at the same moment, and congratulations: Earth is now a sandwich. As the final touch, Shane didn't want to ship his old tricycle back home, so his plan was to bury it at the finish line instead.
 
 {% include gallery.html 
 	type="justified" 
@@ -71,15 +70,15 @@ Shane, the guy who was sitting there with Viola was also interesting. He was cyc
 			/assets/images/ProjectEclipse/0134.jpg > Canal du Rhône a Sète as it follows the shore of the sea.;
 			"%}
 
-I started talking to Viola and Shane and we agreed to continue for the afternoon together, because we had the same destination – Decathlon to fix our bikes. I still needed to replace my front wheel. It was nice to share the way with them and, for the afternoon, I felt a little bit like on the trail. We took cooling break in the sea and together we reached Decathlon in Agde, where I finally replaced my fron wheel and I felt finaly safe before Pyrenees.
+Viola, Shane, and I ended up cycling the afternoon together, since we were all headed to the same place: a Decathlon store, where I could finally replace my front wheel. For a few hours it felt a bit like being back on the trail. We took a cooling break in the sea, reached the store in Agde, and I left with a new wheel and a real sense of relief before the Pyrenees.
 
-I had a dinner at the supermarket with Viola and Shane but I still had to cycle about 25 kilometers to Béziers where I booked accommodation for the night. How surprised I was when I received very late notice from the property owner saying that I have the last hour to check-in (it was 7 pm!). At that moment it was clear to me that I won't make it, so I called her on WhatsApp. She seemed like there is no way for me to get in, but then she offer to send me check-in instructions by WhatsApp if I pay her 10 euros more?! When I asked her whether this is some rule, she simply replied: "No, you just give me the money". At that moment it started to be clear that the property owner is trying to play some dirty games with me, but since I needed the instructions, I agreed. Well, not really. I just pretended to agree to make her send me the instructions. The instructions was picture with her edits - a true masterpiece, but I wouldn't value it 10 euro (you can see the picture in the gallery below) 😁 I told her that I am leaving next day from her property at 8 a.m. and that she can come in the morning and I will give her the money. But that was what I only said, because I left at 7 a.m. Since this rule was never stated anywhere, I had no hard feeling doing that. 
+After dinner with them at a supermarket, I still had 25 km to go to Béziers, where I'd booked a place to stay. That's when things got weird. The property owner messaged me late, saying I had until 7 p.m. to check in, an hour I had no chance of making. I called her on WhatsApp. She acted like there was nothing she could do, then offered to send check-in instructions anyway, for an extra 10 euros. When I asked if that was some kind of rule, she simply replied, "No, you just give me the money." It was clear she was trying to squeeze a bit of extra cash out of me, so I "agreed" (i.e. lied) just to get the instructions. What she sent was a heavily edited photo, a true piece of art, though not one I'd have paid 10 euros for (see the gallery for proof). I told her I'd leave at 8 a.m. and pay her in person. I actually left at 7. Since that arrangement was never anything official, I didn't feel too bad about it.
 
-And the best part? The next morning, she texted me on WhatsApp and she wasn't happy but she couldn't do much. I had a good night and when her insisting on WhatsApp continued and she was threatening me that I could pay up to 145 euro extra, I moved the conversation to official Booking.com chat and called their support to have negotiating edge in case I needed it. As a result, the guy at the support complimented me for smart handling of the situation, that I correctly didn't pay anything and he even sent me 25 euro refund for inconvenience. That was a win and I could continue my journey!
+The next morning, she texted, unhappy but unable to do much about it. When her messages kept coming and she started threatening a 145 euro charge, I moved the conversation to Booking.com's official chat and called their support line to have some backup if needed. The support rep ended up complimenting me for handling it well, confirmed I owed nothing, and even issued a 25 euro refund for the trouble. A clean win, and I was back on the road.
 
-I followed Canal du Midi, which is another canal for boats connecting Atlantic ocean and Mediterranean sea. That day turned my road bike to a gravel and when I reached Carcassonne after nearly 90 km on dirt roads, I was properly "shaken" from all the shaking. That's why I was extremely grateful for the nice asphalt when I got to the town. And I wasn't happy only for that. I really appreciated supermarket at the city and a milkshake with a view of a huge and beautiful castle which I later quickly checked as I was passing by. 
+From there I followed the Canal du Midi, which connects the Atlantic to the Mediterranean. The road turned to gravel for the day, and by the time I reached Carcassonne after nearly 90 km of dirt, I was thoroughly rattled. The smooth asphalt in town felt like a gift, and so did the supermarket run and a milkshake with a view of the town's huge castle, which I checked out briefly on my way through.
 
-A few kilometers before I found my sleeping spot for the night, I became a hero. Or I felt like that. I was cycling and suddenly I saw a turtle slowly crawling across the road. When I saw the cars going on the road, I thought that thic could be the last road crossing for the tutle, so I lifted her up and carried her to the grass on the other side of the road. The turtle didn't seem to be happy when I lifted her above the ground but but that changed as after the soft turtle touchdown to the grass. I could continue going looking for my sleeping spot with the feeling that the number of happy turtles in the Universe increased by one. Finally I found an amazing barn in the middle of the vineyards with a huge fig tree next to it, which was a perfext sleeping spot and I decided to stay there overnight. Interestingly enough, the barn was just a few hundred meters from the village Pomas which got destroyed by tornado about two weeks later.
+A few kilometers before my sleeping spot for the night, I had my heroic moment (or at least it felt that way). I spotted a turtle crawling slowly across the road, right in the path of oncoming traffic, so I picked her up and carried her to the grass on the other side. She wasn't thrilled about being airlifted, but she seemed to settle in fine once her feet touched grass again. I rode on, quietly proud that the universe now had one more happy turtle in it. That night I found an ideal spot: an old barn in the middle of a vineyard, next to a huge fig tree. Only later did I learn the nearby village of Pomas would be hit by a tornado about two weeks after I slept there, a rare event for this part of France.
 
 [^2]: Water reservoirs by the sea with with normal water mixed with the water from the sea. 
 
@@ -94,35 +93,35 @@ A few kilometers before I found my sleeping spot for the night, I became a hero.
 			"%}
 
 
-### Crossing Pyrenees and Andorra
+### Climbing Into the Clouds (and Almost Into Handcuffs)
 
-The next day, I left flats of the past week behind and I slowly started climbing up the Pyrenees. It started like a small hills but they quickly got bigger. The landscape changed and even if I was still in France, I started seeing the signs that I getting closer to Spain. Finally! I was noticing some signs in Spanish or Catalan and the countryside looked different from what I was seeing until now. The area also felt quite remote, which was supported by the fact that there were not many villages and shops but, because French people need baguettes no matter what, I saw a few baguette dispenser in the middle of the villages. 
+The next day I left the flats behind and started climbing into the Pyrenees. What began as gentle hills quickly grew steeper. The landscape changed too: even though I was still in France, I started noticing signs in Spanish and Catalan, and the countryside looked less and less familiar. The area felt remote, with villages growing sparse, but France remained France in one crucial way: I found baguette vending machines standing guard in the middle of nowhere.
 
-The unpleasant surprise was that the water fountains in villages I was often relying on were turned off as a measure to save the water due to the heatwaves. Paradoxically, this was also the only section where I got properly drenched from the rain.
+The unpleasant surprise was that the village water fountains I'd been relying on were switched off to save water during the heatwave. Paradoxically, this was also the one section where I got properly drenched by rain.
 
-I passsed over a few hills over 1000 meters above sea level, but the true mountains were just supposed to come. I got to Ax-Les-Thermes where I couldn't find any restaurant that would cook food in the midle of the day, so I only had two tiramisus and some pizza to go. Only before leaving the town, I discovered a public pool with hot thermal water in the middle of the street and even if I had to continue because I had to do 1300 meters of climbing to Andorra in about three hours before the sunset, I took a few minutes and joined the people sitting there in rainy weather and enjoyed warm water.
+I climbed past a few 1,000-meter hills, but the real mountains were still ahead. In Ax-les-Thermes, where I arrived in a heavy rain, no restaurant was serving food in the middle of the day, so lunch became two tiramisus and a slice of pizza to go. On my way out of town, I found a public hot-spring pool sitting right in the middle of the street. With 1,300 meters of climbing to Andorra ahead of me and only about three hours before sunset, I could only spare a few minutes, but I took them anyway, soaking with strangers in the hot water and the rain.
 
 {% include gallery.html 
 	type="justified" 
-	images="/assets/images/ProjectEclipse/0183.jpg > If you are craving baguette in the middle of the empty 		village, there is a solution - MABAGUETTE the baguette dispenser!;
+	images="/assets/images/ProjectEclipse/0183.jpg > If you are craving baguette in the middle of the empty 		village, there is a solution - MABAGUETTE - the baguette dispenser!;
 		/assets/images/ProjectEclipse/0193.jpg > Leaving flats behind and I started climbing.;
 		/assets/images/ProjectEclipse/0205.jpg > Welness moment in the middle of Ax-Les-Thermes.;
 		/assets/images/ProjectEclipse/0208.jpg > I finally saw proper mountains and I started climbing to Andorra border in 2000 meters above sea level.;
 			"%}
 
-I started the climb to Andorra on quite frequented road, but there was no other options. A few drivers were honking on me and I wasn't really sure if they are cheering for me or they are mad, but I was really looking forward to have this section behind me. The small road with 50 km/h speed limit was suddnly changing to 1 km of three lanes speedway style with 90 km/h speed limit, just to switch into the rad with 30 km/h limit. But as I was getting higher, the traffic was getting smaller and I could finally see Pas de la Casa and Anorra border within reach. 
+The climb into Andorra started on a busy road with no real alternative. A few drivers honked at me, and I couldn't tell if it was encouragement or annoyance, but either way I was glad to eventually leave that stretch behind. The road kept shapeshifting: a 50 km/h village street suddenly widened into a one-kilometer, three-lane speedway with a 90 km/h limit, only to shrink back down to 30 km/h moments later. As I climbed higher, traffic thinned out and Pas de la Casa, and the Andorra border, finally came into view.
 
-The road was empty and I got into a thick fog when I reached Andorra border and so I had to put on the red light to be visible. There were almost no cars, so I was sometimes taking pictures while peddaling uphill. What a bad luck I had when I realised that the only car that was meeting me was a police car and they obviously didn't like that I was holding phone while cycling. Luckily, a genuine contrite expression from my side was enough to convince policemen to let me go.
+By the time I reached the border, the road was empty and swallowed in fog thick enough that I switched on my rear light to stay visible. With barely any cars around, I risked a few photos while pedaling uphill. Naturally, the one car that did pass turned out to be the police, and they weren't thrilled to catch me holding my phone while cycling. Luckily, a suitably guilty expression was apparently enough to convince them to let me go.
 
 <div class="alert alert-info">
-  <strong>Pro tip:</strong> Don't cycle and take pictures at the same time close to the national border. You can be easily spotted by policemen and they won't like it. 🚲+📷🙅->👮😡
+  <strong>Pro tip:</strong> Don't cycle and take pictures at the same time close to a national border. You will get spotted by the police, and they will not be amused. 🚲+📷🙅->👮😡
 </div>
 
-I took an accommodation at Andorra border, had a quick dinner and went to bed. That evening I realised that my knowledge of Spanish is still not that bad and it will be quite useful on my way. Successfully asking in Spanish whether I can bring my bike to the room with me after the hotel stuff didn't understand English felt like a win.
+I found a place to stay right at the Andorra border, had a quick dinner, and went to bed. That evening I discovered my rusty Spanish was more useful than expected, successfully negotiating with the hotel staff (who didn't speak English) to bring my bike into the room. Small win, but a win nonetheless.
 
-The next morning I had a chance to properly see the place and it felt like a huge amusement park. True, there were mountains around, but many shops, fastfood places, karting circuits,... that all felt a bit awkward in 2000 meters above sea level. And, spoiler alert, that's how the whole Andorra felt to me. It is true that I was following only the main road crossing the country, but I felt more like in a shoping centre for rich tourists rather than being in Pyrenees.
+The next morning gave me a proper look at the place, and it felt like walking into an amusement park built at 2,000 meters. Mountains all around, sure, but also fast food chains, karting tracks, and shop after shop after shop. That impression never really left me for the rest of Andorra: even sticking to the main road, it felt less like the Pyrenees and more like a shopping mall for wealthy tourists.
 
-I crossed the highest point of my route - Port d'Envalira (2,408 meters above sea level) and continued a long descent to Andorra La Vella - the capital of this small state. It was only downhill and I was meeting many cyclists along the way. The capital seemed to be one long shopping avenue, but I didn't mind because it was easy tofind something good for lunch and refuel my energy.
+I crossed the highest point of my whole route at Port d'Envalira (2,408 meters) and coasted downhill all the way to Andorra la Vella, the capital, passing plenty of fellow cyclists along the way. The city itself seemed to be one long shopping street, though I wasn't complaining. It made finding a good lunch easy.
 
 {% include gallery.html 
 	type="justified" 
@@ -131,9 +130,9 @@ I crossed the highest point of my route - Port d'Envalira (2,408 meters above se
 			/assets/images/ProjectEclipse/0226.jpg > Me and a random photographer at the highest point of my route.;
 			"%}
 
-I went over the border sooner than expected and I finally got to Spain. I was getting low to the mountain valley and it started to be really hot. One thing I immediately noticed was how nice the drivers in Spain were to me as a cyclist. Overtaking with a safe distance, slowing down in case they couldn't overtake me and generally making me feel extremely safe on the road, which I can't say about French drivers at all. French drivers pretend to be careful but they often seem to be nervous and their manuevers are dangerous. I witnessed multiple times attempts of trying to be nice to cyclists or pedestrians, but instead, they created extremely dangerous situations due to their unexpected behaviour.
+I crossed the border into Spain sooner than expected and dropped down into a scorching mountain valley. The first thing I noticed was how differently Spanish drivers treated cyclists: patient overtakes, safe distances, no unnecessary risks. It made French drivers look bad by comparison. Back in France, drivers often seemed to be trying to be considerate, but their nervous, unpredictable maneuvers ended up creating more dangerous situations than if they'd just driven normally.
 
-I left busy international road between Spain and Andorra in la Seu d'Urgell and started climbing from boiling valley higher up into the mountains. Following one hundred kilometers to Solsona were one of my favourie of the whole journey. A small mountain road with perfect asphalt and minimal traffic, long climbs and beautiful views. I was passing through small Catalan villages in Pyrenees where it looked like the time completely stopped there and only a few people lived there. Towards the end of this section I spent night higher in the mountains close to Port del Comte at the porch of kiosk at the foot of ski slopes. This night had a light show included. I mean lightening show. There were a huge thunderstorms around me, but my hill had a clear sky above and I could enjoy watching natural forces from a safe place. 
+I left the busy road connecting Spain and Andorra at La Seu d'Urgell and began climbing out of the valley into the mountains. The hundred kilometers that followed, up to Solsona, turned into one of my favorite stretches of the whole trip: perfect asphalt, almost no traffic, long climbs, and gorgeous views. I rode through small Catalan villages where time seemed to have simply stopped. Near the end of the day, I found shelter for the night on the porch of a small kiosk near Port del Comte, at the foot of a ski slope. That night came with its own light show: a huge thunderstorm rolled through nearby while my hilltop stayed clear, letting me watch the whole thing from a safe front-row seat.
 
 {% include gallery.html 
 	type="justified" 
@@ -147,17 +146,17 @@ I left busy international road between Spain and Andorra in la Seu d'Urgell and 
 			/assets/images/ProjectEclipse/0291.jpg > Leaving the mountains and entering dry land in the north of Catalonia.;
 			"%}
 
-### Across Catalonia
+### The Suffer Fest Before the Sea
 
-Following two days were again true test of my heat adaptation. No swimming spots for cooling myself and often almost no shade and very dry land. My spirits were kept high only by the fact that the landscape was nice, the roads were still perfect and I was meeting minimum cars. I celebrated one thousand kilometers of the road by a puncture, which I had to fix in the middle of the fields and in the biggest heat with a sun almost directly above my head.
+The next two days were a true test of my heat tolerance. No swimming spots to cool off, barely any shade, and dry land stretching in every direction. What kept my spirits up was the scenery, the still-perfect roads, and how few cars I had to share them with. I celebrated hitting 1,000 km with a puncture, which I fixed in the middle of a field with the sun sitting almost directly overhead.
 
-The landscape started to be less monotonous as I was approaching Ebro River. Even though the cycling was not difficult, this day was a true suffer fest because of the heat. When I got to Flix, a small town directly by Ebro River, I was hoping to get some proper break in the restaurant, but no restaurant had kitchen open around 2 p.m., so I had lunch from the supermarket in the middle of the melting town square. I wanted to cycle more that day, but the heat was making me feeling weak and sick, so I took it easy and called it a day in town Ascó. I slept under the roof behind the football stadium right next to the nuclear power plant, which I realised in the morning the day after.
+The landscape grew less monotonous as I approached the Ebro River, though the heat made even easy cycling feel like a genuine suffer fest. In Flix, a small town right on the river, I'd hoped for a proper restaurant break, but nothing had its kitchen open at 2 p.m., so lunch became supermarket food eaten in a melting town square. I wanted to keep going that day, but the heat left me weak and slightly sick, so I called it early in Ascó. I slept under a roof behind the football stadium, right next to what I only realized the next morning was a nuclear power plant.
 
-I climbed the hill from the bottom of valley of Ebro River and I was heading to Gandesa – the town surrounded by vineyars and wind turbines. The landscape was again more hilly and when I was few kilometers before the town of Tortosa (which I nicknamed Tortuga), I finally saw the flat horizon and I knew that I will reach the sea shore today. The sea shore where Peñíscola is located – my solar eclipse observation location and I will be there two days earlier.
+From the bottom of the Ebro valley, I climbed toward Gandesa, a town surrounded by vineyards and wind turbines. The terrain turned hilly again, and a few kilometers before Tortosa (which I'd nicknamed "Tortuga" in my head), the horizon finally flattened out. I knew I'd reach the coast that day, the same stretch of coast where Peñíscola, my eclipse-viewing spot, was waiting for me, two days ahead of schedule.
 
-Even though it was hot, the roads had great surface and I felt like I was flying. The moment that validated that it was really hot was when I entered a small grocery store and the guy from Pakistan who was working there told me that he doesn't understand how I can cycle in this heat. After a few hours, I finally reached the sea shore in Vinaròs, which was about fifteen kilometers from my final destination. Nearly 1,300 kilometers in 10 days and with a two days cushion. 
+Despite the heat, the road surface was excellent and I felt like I was flying. Just how brutal that heat really was got confirmed when a shopkeeper from Pakistan told me he couldn't understand how I was managing to cycle in it. A few hours later I reached the coast at Vinaròs, about fifteen kilometers from my final destination: nearly 1,300 km in 10 days, with a two-day cushion to spare.
 
-Now the plan was not to look too much like a homless while relaxing on the beach and waiting for the eclipse. When I saw all the tourists with nice clothes at the beach resorts, I felt a bit inappropriate going around in smelly jersey and laying on the beach on tyvek instead of a proper towel. To make this feeling even stronger, I decided not to pay for any accommodation and I secretly slept these two nights in orange and olive orchads next to the town. The idea of sleeping there was great. The only flaw was that I could hear wild boars going around every night and in the orange orchad this was particularly scary. I couldn't see to neighbouring aisles because trees were dense, but I could hear boars grunting probably just a few meters from my sleeping spot.
+Now the plan was not to look too much like a homeless while relaxing on the beach and waiting for the eclipse. When I saw all the tourists with nice clothes at the beach resorts, I felt a bit inappropriate going around in smelly jersey and laying on the beach on tyvek instead of a proper towel. To make this feeling even stronger, I decided not to pay for any accommodation and I secretly slept these two nights in orange and olive orchards next to the town. The idea of sleeping there was great. The only flaw was that I could hear wild boars going around every night and in the orange orchard this was particularly scary. I couldn't see to neighbouring aisles because trees were dense, but I could hear boars grunting probably just a few meters from my sleeping spot.
 
 {% include gallery.html 
 	type="justified" 
@@ -172,34 +171,79 @@ Now the plan was not to look too much like a homless while relaxing on the beach
 
 ### The Eclipse
 
-The big day has come and my plan was to cycle about 45 minutes to Peñíscola where I was meeting my friend Laura together with her friends and we were planning to watch the eclipse together. I arrived there quite early in the morning and I could enjoy nice sandy beach under the ancient fortress. The fortress used to be a blace where antipope Papa Luna (Benedict XIII) lived during the period of Western Schism. Lated during the day the beach got completely crowded and heat was unbearable, so I was waiting for my friends to arrive.
+The big day arrived, and my plan was to cycle about 45 minutes to Peñíscola, where I'd be meeting my friend Laura (whom I met a year before in New Zealand) and her friends to watch the eclipse together. I got there early in the morning and had a nice sandy beach almost to myself, right under the old fortress, once home to antipope Benedict XIII (Papa Luna) during the Western Schism. By the afternoon, the beach was packed and the heat unbearable, so I waited it out until my friend with her friends arrived.
 
-Our original plan was going up the hill above the town, but we decided to abandon the plan because the heat wouldn't make this enjoyable and we found a spot with a great view of the wester horizon where the eclipse was about to happen[^3]. The dirt road, trash on the ground and and hotels full of tourists behind our back was not so pretty, but we needed only the view of the horizon, which was actually great. And we were definitely not the only ones who came there for the show. 
+Our original plan was to hike up the hill above town, but the heat made that idea instantly unappealing, so instead we found a spot with a clear view of the western horizon, right where the eclipse would happen[^3]. It wasn't the prettiest setup: a dirt road, some trash on the ground, and a row of tourist hotels behind us. But the horizon view was exactly what we needed, and we clearly weren't the only ones who'd had the same idea.
 
-We were only nervous because a huge cloud was rolling in and it wasn't sure if we will even see the sun.
+The only thing making us nervous was a large cloud rolling in, threatening to block the whole show before it started.
 
-The eclipse officiall started and the sun was still behind the cloud. There was only a small opening above the horizon and we were really hoping that the opening will be still there when the total solar eclipse starts. And it was!
+The eclipse officially began, and the sun was still hidden behind the cloud. There was just one small gap above the horizon, and we spent the next stretch hoping it would still be there once totality hit.
 
-The moment of totality, when the solar disd is completely hidden by the Moon was something really weird, but amazing at the same time. Minutes befor it started, burds started chirping like crazy and when the moment of the total solar eclips arrived, they stopped and there was this weird "fiery" thing hovering above the horizon. We could clearly see the solar corona and even a huge protuberance visible by naked eye. The view was something really special and we were staring at it with awe. I have to say that I expected it to be much darker, but the landscape looked like some time after the sunset when there is still a bit of light. The moment lasted slightly less than two minutes and it was over. The sun was getting close to the horizon and we could see very special view of crescent-shaped sun, still partly hidden by the moon, setting behind the horizon. The eclipse was true icing on the cake and I was extremely happy that everything worked out and I managed to get here all the way from Geneva by bike.
+It was.
 
-Then we went for the night swim in the sea and we even saw some Perseids because that night was also peak of the Perseid meteor shower. What a day!
+The moment of totality, when the Moon fully swallowed the sun, was strange and beautiful at once. Just before it happened, the birds started chirping like crazy, then went completely silent the moment totality arrived. In their place, this eerie, fiery shape hung above the horizon. We could clearly see the solar corona, and even a huge protuberance visible to the naked eye. We just sat there, staring, completely in awe. I'd expected total darkness, but it looked more like the light just after sunset, dim but not black. The whole thing lasted just under two minutes before it was over, and the sun, now a thin crescent still partly hidden by the Moon, dipped below the horizon. It was the perfect final piece of the whole trip, and I could hardly believe I'd actually made it here, all the way from Geneva, by bike.
+
+That night we went for a swim in the sea and caught a few Perseids too, since it happened to be the peak of the meteor shower as well. What a day.
 
 {% include gallery.html 
 	type="justified" 
-	images="/assets/images/ProjectEclipse/0350.jpg > Morning swim in Peñíscol at beaches getting full of tourists.;
+	images="/assets/images/ProjectEclipse/0347.jpg > Fortress in Peñíscola.;
 			/assets/images/ProjectEclipse/0355.jpg > That's how our observation place looked like. I agree, there are prettier spots.;
 			/assets/images/ProjectEclipse/0358.jpg > The eclipse already started and the cloud formed only a small opening above the horizon.;
 			/assets/images/ProjectEclipse/0361.jpg > It's happening! The sun was too bright, but you can see some reflection of the 'cut-out sun' on the lens of my phone camera.;
 			/assets/images/ProjectEclipse/0362.jpg > Eclipse SWAG!;
 			/assets/images/ProjectEclipse/0360.jpg > Sun captures through the filter of solar glasses on my phone camera.;
-			/assets/images/ProjectEclipse/0365.jpg > This was the moment! It looked so surreal and we could see details in solar corona which my phone didn't manage to capture.;
+			/assets/images/ProjectEclipse/0364.jpg > This was the moment! It looked so surreal and we could see details in solar corona which my phone didn't manage to capture.;
 			/assets/images/ProjectEclipse/0368.jpg > The end of the show.;
 			"%}
 
 
 [^3]: The total eclipse was happening during the sunset only four degrees above horizon.
 
-### Along the Catalan Coast Back to France 
+### Gaudí, Hailstones, and a Very Undignified Finish
+
+After two relaxing days by the sea, getting back on the bike wasn't easy. The cycling itself wasn't the problem, the heat still was, but I knew the journey wasn't over yet.
+
+I headed back toward France mostly along the coast, with a few inland detours, one of them around the Ebro Delta. The road quality there was excellent, so I flew through it quickly. Back on the coast, I ran into a string of short, brutally steep hills I hadn't expected at all. That night I slept in an old quarry with a tunnel leading off into the dark. I checked the entrance, but once it kept twisting underground after a few turns, I decided to leave the rest a mystery.
+
+The next day took me through Tarragona and on to Barcelona. I followed the coast, but proper access to the sea was rare, so I spent most of the ride convinced I might simply evaporate. Relief came in the form of a beach in a small bay, which turned out to be a dog beach, packed with dogs of every size, speed, and swimming ability. Watching a chihuahua repeatedly charge into waves five times its size, and get repeatedly wiped out, was easily the highlight.
+
+Right after that break, I accidentally merged onto a road heading straight for the highway. Spotting the highway sign 100 meters ahead was a clear sign I'd taken a very wrong turn. I managed to correct course and made it into Barcelona, where I met up with my Czech friends Kuba and Radka, who'd also come to Spain for the eclipse.
+
+The dorm that night was rough. Someone (probably drunk) started talking loudly at 3 a.m., another guest tried to shut him up, an argument broke out, and things escalated until the police showed up at 6:30 a.m. to deal with it. After that eventful wake-up call, I spent my one planned turisty day in Barcelona doing some proper sightseeing: the Sagrada Família, its tallest tower nearly finished, and Casa Batlló, one of Gaudí's houses.
+
+{% include gallery.html 
+	type="justified" 
+	images="/assets/images/ProjectEclipse/0375.jpg > My sleeping spot in the old quarry.;
+			/assets/images/ProjectEclipse/0379.jpg > Miami Beach, but it's in Spain.;
+			/assets/images/ProjectEclipse/0381.jpg > Tarragona.;
+			/assets/images/ProjectEclipse/0389.jpg > One of Gaudí's houses - Casa Batlló.;
+			/assets/images/ProjectEclipse/0410.jpg > Sagrada Família in morning sun when I was leaving the city.;
+			/assets/images/ProjectEclipse/0407.jpg > Arguing parrots in Barcelona.;
+			"%}
+
+Leaving Barcelona the next day, I fell in with a few groups of cyclists along the coast and, for one glorious hour, found myself averaging close to 30 km/h. I left the shoreline again in Malgrat de Mar, a place that hit me with unexpected nostalgia. I'd been there once before, at five years old, on only the second trip I'd ever taken to the sea. My memories of it were vague, but the place matched them surprisingly well.
+
+Next up was Girona, where I arrived just ahead of a huge thunderstorm and waited it out with tacos at a Mexican restaurant. The size of the hailstones I saw on the ground afterward made me very glad I'd found shelter in time. The countryside around Girona was lovely, especially with the Pyrenees creeping back into view. I pitched my tarp in a field with a mountain backdrop, knowing the finish line was close.
+
+On the final morning, I followed some gravel paths that were barely rideable on a road bike, but I enjoyed every bit of the remote, scenic stretch anyway. I crossed into France past a traffic jam stretching several kilometers, leaving just two hours of cycling to Perpignan, my final stop and train connection home.
+
+I stopped to take a photo at the town's welcome sign, with no idea that a flat tire was waiting just around the corner. It was the second puncture of the trip, and it hit only a few kilometers from the train station. With a train to catch and food still to buy, I decided to just walk the bike the rest of the way to be sure I wouldn't miss it.
+
+And that's how I finished 1,790 km of cycling: on foot. Maybe the universe was just reminding me that hiking is pretty great too, and that my next big trip should probably be on two feet instead of two wheels.
+
+
+
+{% include gallery.html 
+	type="justified" 
+	images="/assets/images/ProjectEclipse/0418.jpg > Girona.;
+			/assets/images/ProjectEclipse/0422.jpg > I was really happy that I wasn't here a bit earlier when this was falling from the sky.;
+			/assets/images/ProjectEclipse/0426.jpg > Seeing Pyrenees from my sleeping spot on the last night of the trip.;
+			/assets/images/ProjectEclipse/0432.jpg > I had no expectations about the last section of the trip, but it was really pretty.;
+			/assets/images/ProjectEclipse/0437.jpg > This gravel road doesn't look too bad, but there were sections where I had to walk my road bike because the terrain was really bad. But I loved this section because of the landscape.;
+			/assets/images/ProjectEclipse/0446.jpg > Finish photo - at this moment, I had no idea that I just got a flat tire and I will need to walk last few kilometers through the city.;
+			"%}
+
 
 **Final stats:**
 - Total cycled: 1,790 km
@@ -209,3 +253,5 @@ Then we went for the night swim in the sea and we even saw some Perseids because
 - Total solar eclipses: 1
 - Punctures: 2
 - Fun: infinity
+
+___
